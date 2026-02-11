@@ -7,12 +7,23 @@ app = Flask(__name__)
 
 def load_exercises():
     json_path = Path(__file__).parent.parent / "data" / "exercise_json" / "parsed_exercises.json"
+    print(f"Looking for file at: {json_path}")
+    print(f"File exists: {json_path.exists()}")
+    
+    if not json_path.exists():
+        print(f"ERROR: File not found at {json_path}")
+        return {}
+    
     with open(json_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+        print(f"Loaded {len(data)} exercises")
+        return data
 
 @app.route("/")
 def index():
     exercises = load_exercises()
+    if not exercises:
+        return "No exercises found! Check Render logs.", 500
     return render_template("index.html", exercises=exercises)
 
 @app.route("/exercise/<exercise_name>")
