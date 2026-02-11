@@ -10,18 +10,13 @@ from pathlib import Path
 def sync(all=False):
     
     load_dotenv()  # Load variables from .env file
-    email = os.getenv("EMAIL")
-    password = os.getenv("PASSWORD")
-    print(email)
+    email = os.environ.get("EMAIL")
+    password = os.environ.get("PASSWORD")
     print(f"Garmin Connect Progress Tracker for {email}")
     api = Garmin(email, password)
     api.login()
-
-    _today = date.today().strftime('%Y-%m-%d')
-    hr_data = api.get_heart_rates(_today)
-    print(f"Resting HR: {hr_data.get('restingHeartRate', 'n/a')}")
-    
     sync_last(api)
+    
     
 def sync_last(api):
     try:
@@ -42,8 +37,6 @@ def sync_last(api):
         print("No strength exercises found")
         print(f"Error: {e}")
 
-def sync_last_2_weeks(api):
-    pass
 
 def sync_all(api : Garmin):
     activities = api.get_activities(0, 40)

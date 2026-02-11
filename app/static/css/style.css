@@ -190,6 +190,34 @@ h1 {
     font-size: 13px !important;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sync-btn {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.sync-btn:hover:not(:disabled) {
+    background: #2563eb;
+}
+
+.sync-btn:disabled {
+    background: #666;
+    cursor: not-allowed;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     body {

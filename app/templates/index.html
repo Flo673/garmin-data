@@ -8,7 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <h1> Workout Tracker</h1>
+        <div class="header">
+            <h1>💪 Workout Tracker</h1>
+            <button id="sync-btn" class="sync-btn" onclick="syncData()">
+                🔄 Sync from Garmin
+            </button>
+        </div>
         <input type="text" id="search" placeholder="Search exercises..." class="search-box">
         <div class="exercise-grid" id="exercise-grid">
             {% for exercise_name, dates in exercises.items() %}
@@ -34,6 +39,37 @@
             {% endfor %}
         </div>
     </div>
+    <script>
+        async function syncData() {
+            const btn = document.getElementById('sync-btn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Syncing...';
+            
+            try {
+                const res = await fetch('/sync', { method: 'POST' });
+                const data = await res.json();
+                
+                if (data.success) {
+                    btn.textContent = '✅ Synced!';
+                    setTimeout(() => location.reload(), 1000);
+                } else {
+                    btn.textContent = '❌ Failed';
+                    alert(data.message);
+                    setTimeout(() => {
+                        btn.disabled = false;
+                        btn.textContent = '🔄 Sync from Garmin';
+                    }, 2000);
+                }
+            } catch(e) {
+                btn.textContent = '❌ Error';
+                alert('Error: ' + e);
+                setTimeout(() => {
+                    btn.disabled = false;
+                    btn.textContent = '🔄 Sync from Garmin';
+                }, 2000);
+            }
+        }
+    </script>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
