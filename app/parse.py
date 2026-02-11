@@ -26,7 +26,15 @@ def parse():
                     "weight": set["weight"],
                     "date": date,
                 })
-    with open("data/exercise_json/parsed_exercises.json", "w", encoding="utf-8") as f:
+
+    for exercise_name in exercises:
+        exercises[exercise_name] = dict(sorted(exercises[exercise_name].items()))
+
+    output_dir = Path(__file__).parent.parent / "data" / "exercise_json"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "parsed_exercises.json"
+    
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(exercises, f, indent=2)
 
 

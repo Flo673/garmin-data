@@ -1,5 +1,65 @@
 {
   "PULL_UP": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 6,
+        "weight": -1.0,
+        "date": "2026-01-29"
+      },
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 3,
+        "weight": -1.0,
+        "date": "2026-01-29"
+      },
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 6,
+        "weight": -1.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "activityName": "PULL_UP",
+        "activityId": 21753660373,
+        "setID": 0,
+        "reps": 8,
+        "weight": 0.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 2,
+        "reps": 6,
+        "weight": 0.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 4,
+        "reps": 3,
+        "weight": 0.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": "CLOSE_GRIP_LAT_PULLDOWN",
+        "activityId": 21753660373,
+        "setID": 12,
+        "reps": 8,
+        "weight": 43000.0,
+        "date": "2026-02-03"
+      }
+    ],
     "2026-02-09": [
       {
         "activityName": "WEIGHTED_PULL_UP",
@@ -28,6 +88,58 @@
     ]
   },
   "ROW": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 11,
+        "weight": 0.0,
+        "date": "2026-01-29"
+      },
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 8,
+        "weight": 25000.0,
+        "date": "2026-01-29"
+      },
+      {
+        "activityName": "SEATED_CABLE_ROW",
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 10,
+        "weight": 25000.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 6,
+        "reps": 12,
+        "weight": 43000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 8,
+        "reps": 6,
+        "weight": 47000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 10,
+        "reps": 9,
+        "weight": 43000.0,
+        "date": "2026-02-03"
+      }
+    ],
     "2026-02-09": [
       {
         "activityName": "BARBELL_ROW",
@@ -55,7 +167,289 @@
       }
     ]
   },
+  "BENCH_PRESS": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 8,
+        "weight": 25000.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-02": [
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 15,
+        "weight": 20000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 7,
+        "weight": 42000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 7,
+        "weight": 42000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 3,
+        "weight": 42000.0,
+        "date": "2026-02-02"
+      }
+    ],
+    "2026-02-05": [
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 12,
+        "weight": 20000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 7,
+        "weight": 43000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 5,
+        "weight": 43000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 5,
+        "weight": 43000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 3,
+        "weight": 43000.0,
+        "date": "2026-02-05"
+      }
+    ],
+    "2026-02-11": [
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 18,
+        "weight": 20000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 8,
+        "weight": 43000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 6,
+        "weight": 43000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 5,
+        "weight": 43000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 5,
+        "weight": 43000.0,
+        "date": "2026-02-11"
+      }
+    ]
+  },
+  "UNKNOWN": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 10,
+        "weight": 20000.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-02": [
+      {
+        "activityName": null,
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 4,
+        "weight": 8000.0,
+        "date": "2026-02-02"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 14,
+        "reps": 7,
+        "weight": 43000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 16,
+        "reps": 11,
+        "weight": 13000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 20,
+        "reps": 7,
+        "weight": 16000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 26,
+        "reps": 5,
+        "weight": 18000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 30,
+        "reps": 14,
+        "weight": 26000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 32,
+        "reps": 9,
+        "weight": 28000.0,
+        "date": "2026-02-03"
+      }
+    ]
+  },
   "LATERAL_RAISE": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 8,
+        "weight": 20000.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-02": [
+      {
+        "activityName": null,
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 12,
+        "weight": 36000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": null,
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 8,
+        "weight": 36000.0,
+        "date": "2026-02-02"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 34,
+        "reps": 17,
+        "weight": 11000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 36,
+        "reps": 9,
+        "weight": 23000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 38,
+        "reps": 8,
+        "weight": 23000.0,
+        "date": "2026-02-03"
+      }
+    ],
+    "2026-02-05": [
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 10,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 7,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 5,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      }
+    ],
     "2026-02-09": [
       {
         "activityName": "SEATED_REAR_LATERAL_RAISE",
@@ -83,7 +477,57 @@
       }
     ]
   },
+  "PUSH_UP": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 14,
+        "weight": 11000.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-05": [
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 10,
+        "weight": 0.0,
+        "date": "2026-02-05"
+      }
+    ]
+  },
   "CURL": {
+    "2026-01-29": [
+      {
+        "activityName": null,
+        "activityId": 21705954819,
+        "setID": null,
+        "reps": 7,
+        "weight": 18000.0,
+        "date": "2026-01-29"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 22,
+        "reps": 7,
+        "weight": 18000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 24,
+        "reps": 6,
+        "weight": 18000.0,
+        "date": "2026-02-03"
+      }
+    ],
     "2026-02-09": [
       {
         "activityName": "DUMBBELL_BICEPS_CURL",
@@ -111,27 +555,309 @@
       }
     ]
   },
-  "OLYMPIC_LIFT": {
-    "2026-02-10": [
+  "TRICEPS_EXTENSION": {
+    "2026-02-02": [
       {
-        "activityName": "CLEAN",
-        "activityId": 21826897129,
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21743467027,
         "setID": null,
-        "reps": 9,
-        "weight": 20000.0,
-        "date": "2026-02-10"
+        "reps": 3,
+        "weight": 13000.0,
+        "date": "2026-02-02"
       },
       {
-        "activityName": "CLEAN",
-        "activityId": 21826897129,
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 5,
+        "weight": 18000.0,
+        "date": "2026-02-02"
+      }
+    ],
+    "2026-02-05": [
+      {
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 8,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 5,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 10,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 10,
+        "weight": 16000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 6,
+        "weight": 16000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
+        "activityId": 21775193347,
         "setID": null,
         "reps": 7,
-        "weight": 30000.0,
-        "date": "2026-02-10"
+        "weight": 16000.0,
+        "date": "2026-02-05"
+      }
+    ],
+    "2026-02-11": [
+      {
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 10,
+        "weight": 27000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 5,
+        "weight": 27000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "WEIGHTED_DIP",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 6,
+        "weight": 34000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 11,
+        "weight": 16000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 7,
+        "weight": 16000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 2,
+        "weight": 16000.0,
+        "date": "2026-02-11"
+      }
+    ]
+  },
+  "SHOULDER_PRESS": {
+    "2026-02-02": [
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 13,
+        "weight": 23000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 6,
+        "weight": 27000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 5,
+        "weight": 23000.0,
+        "date": "2026-02-02"
+      }
+    ],
+    "2026-02-05": [
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 10,
+        "weight": 20000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 6,
+        "weight": 25000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 7,
+        "weight": 20000.0,
+        "date": "2026-02-05"
+      }
+    ],
+    "2026-02-11": [
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 6,
+        "weight": 29000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 8,
+        "weight": 25000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": "OVERHEAD_BARBELL_PRESS",
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 5,
+        "weight": 25000.0,
+        "date": "2026-02-11"
+      }
+    ]
+  },
+  "SIT_UP": {
+    "2026-02-02": [
+      {
+        "activityName": "WEIGHTED_SIT_UP",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 7,
+        "weight": 8000.0,
+        "date": "2026-02-02"
+      },
+      {
+        "activityName": "WEIGHTED_SIT_UP",
+        "activityId": 21743467027,
+        "setID": null,
+        "reps": 8,
+        "weight": 8000.0,
+        "date": "2026-02-02"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 18,
+        "reps": 11,
+        "weight": 13000.0,
+        "date": "2026-02-03"
+      },
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 40,
+        "reps": 8,
+        "weight": 23000.0,
+        "date": "2026-02-03"
+      }
+    ]
+  },
+  "SHRUG": {
+    "2026-02-03": [
+      {
+        "activityName": null,
+        "activityId": 21753660373,
+        "setID": 28,
+        "reps": 8,
+        "weight": 5000.0,
+        "date": "2026-02-03"
+      }
+    ],
+    "2026-02-04": [
+      {
+        "activityName": null,
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 54000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": null,
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 11,
+        "weight": 45000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": null,
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 45000.0,
+        "date": "2026-02-04"
       }
     ]
   },
   "SQUAT": {
+    "2026-02-04": [
+      {
+        "activityName": "BARBELL_BACK_SQUAT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 20,
+        "weight": 20000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "BARBELL_BACK_SQUAT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 43000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "BARBELL_BACK_SQUAT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 52000.0,
+        "date": "2026-02-04"
+      }
+    ],
     "2026-02-10": [
       {
         "activityName": "BARBELL_BACK_SQUAT",
@@ -160,6 +886,32 @@
     ]
   },
   "DEADLIFT": {
+    "2026-02-04": [
+      {
+        "activityName": "ROMANIAN_DEADLIFT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 12,
+        "weight": 43000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "ROMANIAN_DEADLIFT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 61000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "ROMANIAN_DEADLIFT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 4,
+        "weight": 52000.0,
+        "date": "2026-02-04"
+      }
+    ],
     "2026-02-10": [
       {
         "activityName": "ROMANIAN_DEADLIFT",
@@ -188,6 +940,24 @@
     ]
   },
   "LUNGE": {
+    "2026-02-04": [
+      {
+        "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 9,
+        "weight": 9000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 8,
+        "weight": 9000.0,
+        "date": "2026-02-04"
+      }
+    ],
     "2026-02-10": [
       {
         "activityName": "DUMBBELL_BULGARIAN_SPLIT_SQUAT",
@@ -208,6 +978,32 @@
     ]
   },
   "CRUNCH": {
+    "2026-02-04": [
+      {
+        "activityName": "WEIGHTED_LEG_EXTENSIONS",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 45000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "WEIGHTED_LEG_EXTENSIONS",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 45000.0,
+        "date": "2026-02-04"
+      },
+      {
+        "activityName": "WEIGHTED_LEG_EXTENSIONS",
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": 45000.0,
+        "date": "2026-02-04"
+      }
+    ],
     "2026-02-10": [
       {
         "activityName": "WEIGHTED_LEG_EXTENSIONS",
@@ -235,27 +1031,17 @@
       }
     ]
   },
-  "HIP_STABILITY": {
-    "2026-02-10": [
-      {
-        "activityName": "WEIGHTED_INNER_THIGH_LIFT",
-        "activityId": 21826897129,
-        "setID": null,
-        "reps": 10,
-        "weight": 32000.0,
-        "date": "2026-02-10"
-      },
-      {
-        "activityName": "WEIGHTED_INNER_THIGH_LIFT",
-        "activityId": 21826897129,
-        "setID": null,
-        "reps": 10,
-        "weight": 32000.0,
-        "date": "2026-02-10"
-      }
-    ]
-  },
   "CALF_RAISE": {
+    "2026-02-05": [
+      {
+        "activityName": null,
+        "activityId": 21765179878,
+        "setID": null,
+        "reps": 10,
+        "weight": null,
+        "date": "2026-02-05"
+      }
+    ],
     "2026-02-10": [
       {
         "activityName": null,
@@ -307,6 +1093,120 @@
       }
     ]
   },
+  "FLYE": {
+    "2026-02-05": [
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 0,
+        "weight": 27000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 7,
+        "weight": 36000.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": null,
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 8,
+        "weight": 32000.0,
+        "date": "2026-02-05"
+      }
+    ],
+    "2026-02-11": [
+      {
+        "activityName": null,
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 8,
+        "weight": 41000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": null,
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 7,
+        "weight": 36000.0,
+        "date": "2026-02-11"
+      },
+      {
+        "activityName": null,
+        "activityId": 21838183510,
+        "setID": null,
+        "reps": 7,
+        "weight": 32000.0,
+        "date": "2026-02-11"
+      }
+    ]
+  },
+  "BANDED_EXERCISES": {
+    "2026-02-05": [
+      {
+        "activityName": "SHOULDER_EXTERNAL_ROTATION",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 15,
+        "weight": 4500.0,
+        "date": "2026-02-05"
+      },
+      {
+        "activityName": "SHOULDER_EXTERNAL_ROTATION",
+        "activityId": 21775193347,
+        "setID": null,
+        "reps": 15,
+        "weight": 4500.0,
+        "date": "2026-02-05"
+      }
+    ]
+  },
+  "OLYMPIC_LIFT": {
+    "2026-02-10": [
+      {
+        "activityName": "CLEAN",
+        "activityId": 21826897129,
+        "setID": null,
+        "reps": 9,
+        "weight": 20000.0,
+        "date": "2026-02-10"
+      },
+      {
+        "activityName": "CLEAN",
+        "activityId": 21826897129,
+        "setID": null,
+        "reps": 7,
+        "weight": 30000.0,
+        "date": "2026-02-10"
+      }
+    ]
+  },
+  "HIP_STABILITY": {
+    "2026-02-10": [
+      {
+        "activityName": "WEIGHTED_INNER_THIGH_LIFT",
+        "activityId": 21826897129,
+        "setID": null,
+        "reps": 10,
+        "weight": 32000.0,
+        "date": "2026-02-10"
+      },
+      {
+        "activityName": "WEIGHTED_INNER_THIGH_LIFT",
+        "activityId": 21826897129,
+        "setID": null,
+        "reps": 10,
+        "weight": 32000.0,
+        "date": "2026-02-10"
+      }
+    ]
+  },
   "CORE": {
     "2026-02-10": [
       {
@@ -352,158 +1252,6 @@
         "reps": 4,
         "weight": 27000.0,
         "date": "2026-02-10"
-      }
-    ]
-  },
-  "BENCH_PRESS": {
-    "2026-02-11": [
-      {
-        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 18,
-        "weight": 20000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 8,
-        "weight": 43000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 6,
-        "weight": 43000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 5,
-        "weight": 43000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "INCLINE_BARBELL_BENCH_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 5,
-        "weight": 43000.0,
-        "date": "2026-02-11"
-      }
-    ]
-  },
-  "SHOULDER_PRESS": {
-    "2026-02-11": [
-      {
-        "activityName": "OVERHEAD_BARBELL_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 6,
-        "weight": 29000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "OVERHEAD_BARBELL_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 8,
-        "weight": 25000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "OVERHEAD_BARBELL_PRESS",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 5,
-        "weight": 25000.0,
-        "date": "2026-02-11"
-      }
-    ]
-  },
-  "FLYE": {
-    "2026-02-11": [
-      {
-        "activityName": null,
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 8,
-        "weight": 41000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": null,
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 7,
-        "weight": 36000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": null,
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 7,
-        "weight": 32000.0,
-        "date": "2026-02-11"
-      }
-    ]
-  },
-  "TRICEPS_EXTENSION": {
-    "2026-02-11": [
-      {
-        "activityName": "WEIGHTED_DIP",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 10,
-        "weight": 27000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "WEIGHTED_DIP",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 5,
-        "weight": 27000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "WEIGHTED_DIP",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 6,
-        "weight": 34000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 11,
-        "weight": 16000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 7,
-        "weight": 16000.0,
-        "date": "2026-02-11"
-      },
-      {
-        "activityName": "LYING_EZ_BAR_TRICEPS_EXTENSION",
-        "activityId": 21838183510,
-        "setID": null,
-        "reps": 2,
-        "weight": 16000.0,
-        "date": "2026-02-11"
       }
     ]
   }
