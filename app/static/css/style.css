@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -110,9 +110,11 @@ h1 {
 /* Header */
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .back-btn {
@@ -128,6 +130,148 @@ h1 {
 
 .back-btn:hover {
     background: #252525;
+}
+
+/* Sync Buttons */
+.sync-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.sync-btn {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.sync-btn:hover:not(:disabled) {
+    background: #2563eb;
+}
+
+.sync-btn:disabled {
+    background: #666;
+    cursor: not-allowed;
+}
+
+.sync-btn-secondary {
+    background: #6b7280;
+}
+
+.sync-btn-secondary:hover:not(:disabled) {
+    background: #4b5563;
+}
+
+/* Exercise Detail Layout */
+.exercise-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.sessions-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Rep Max Sidebar */
+.rep-max-sidebar {
+    width: 160px;
+    flex-shrink: 0;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 14px;
+    position: sticky;
+    top: 20px;
+}
+
+.rep-max-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.rep-max-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.rep-max-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #222;
+}
+
+.rep-max-row.actual {
+    background: #1a2744;
+    border: 1px solid #2a4a7a;
+}
+
+.rep-max-row.estimated {
+    opacity: 0.5;
+}
+
+.rm-reps {
+    font-size: 11px;
+    font-weight: 700;
+    color: #888;
+    width: 30px;
+    flex-shrink: 0;
+    font-family: 'SF Mono', 'Consolas', monospace;
+}
+
+.rep-max-row.actual .rm-reps {
+    color: #6ba3f7;
+}
+
+.rm-weight-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.rm-weight {
+    font-size: 14px;
+    font-weight: 700;
+    color: #e0e0e0;
+    font-family: 'SF Mono', 'Consolas', monospace;
+    line-height: 1.2;
+}
+
+.rep-max-row.actual .rm-weight {
+    color: #ffffff;
+}
+
+.rm-weight small {
+    font-size: 10px;
+    font-weight: 400;
+    color: #666;
+}
+
+.rm-weight.no-data {
+    color: #444;
+    font-size: 12px;
+}
+
+.rm-date {
+    font-size: 10px;
+    color: #555;
+    line-height: 1;
+}
+
+.rep-max-row.actual .rm-date {
+    color: #6b7fa8;
 }
 
 /* Date Sections */
@@ -190,50 +334,44 @@ h1 {
     font-size: 13px !important;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.sync-buttons {
-    display: flex;
-    gap: 8px;
-}
-
-.sync-btn {
-    background: #3b82f6;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    transition: background 0.2s;
-}
-
-.sync-btn:hover:not(:disabled) {
-    background: #2563eb;
-}
-
-.sync-btn:disabled {
-    background: #666;
-    cursor: not-allowed;
-}
-
-.sync-btn-secondary {
-    background: #6b7280;
-}
-
-.sync-btn-secondary:hover:not(:disabled) {
-    background: #4b5563;
+.no-data {
+    color: #555;
+    font-style: italic;
 }
 
 /* Responsive */
+@media (max-width: 768px) {
+    .exercise-layout {
+        flex-direction: column;
+    }
+
+    .rep-max-sidebar {
+        width: 100%;
+        position: static;
+    }
+
+    .rep-max-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .rep-max-row {
+        flex: 1;
+        min-width: 70px;
+        padding: 4px 6px;
+    }
+
+    .rm-weight {
+        font-size: 12px;
+    }
+
+    .rm-reps {
+        font-size: 10px;
+        width: auto;
+    }
+}
+
 @media (max-width: 600px) {
     body {
         padding: 12px;

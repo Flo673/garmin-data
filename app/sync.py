@@ -42,6 +42,8 @@ def sync_last_5(api):
 
 
 def sync_all(api : Garmin):
+    
+
     activities = api.get_activities(0, 40)
     try:
         for activity in activities:

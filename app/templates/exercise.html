@@ -13,39 +13,69 @@
             <h1>{{ exercise_name.replace('_', ' ').title() }}</h1>
         </div>
 
-        {% for date, sets in exercise_data.items() | reverse %}
-        <div class="date-section">
-            <div class="date-header">📅 {{ date }}</div>
-            <table class="set-table">
-                <thead>
-                    <tr>
-                        <th>Set</th>
-                        <th>Reps</th>
-                        <th>Weight (kg)</th>
-                        <th>Variation</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for set in sets %}
-                    <tr>
-                        <td>{{ loop.index }}</td>
-                        <td>{{ set.reps if set.reps else '-' }}</td>
-                        <td>
-                            {% if set.weight and set.weight > 0 %}
-                                {{ (set.weight / 1000) | round(1) }}
-                            {% elif set.weight and set.weight == -1 %}
-                                BW
-                            {% else %}
-                                -
-                            {% endif %}
-                        </td>
-                        <td class="variation-name">{{ set.activityName.replace('_', ' ').title() if set.activityName else '-' }}</td>
-                    </tr>
+        <div class="exercise-layout">
+            {% set analytics = exercise_data.analytics %}
+            {% if analytics and analytics.rep_max %}
+            <aside class="rep-max-sidebar">
+                <div class="rep-max-title">🏆 Rep Max</div>
+                <div class="rep-max-list">
+                    {% for entry in analytics.rep_max %}
+                    <div class="rep-max-row {% if entry | length >= 3 and entry[2] %}actual{% else %}estimated{% endif %}">
+                        {% if entry[0] > 0 %}
+                        <span class="rm-reps">{{ loop.index }}RM</span>
+                        <div class="rm-weight-block">
+                            <span class="rm-weight">{{ (entry[0] / 1000) | round(1) }}<small>kg</small></span>
+                            <span class="rm-date">{{ entry[1] }}</span>
+                        </div>
+                        {% else %}
+                        <span class="rm-reps">{{ loop.index }}RM</span>
+                        <div class="rm-weight-block">
+                            <span class="rm-weight no-data">—</span>
+                        </div>
+                        {% endif %}
+                    </div>
                     {% endfor %}
-                </tbody>
-            </table>
+                </div>
+            </aside>
+            {% endif %}
+
+            <div class="sessions-main">
+                {% set sessions = exercise_data.sessions %}
+                {% for date, sets in sessions.items() | reverse %}
+                <div class="date-section">
+                    <div class="date-header">📅 {{ date }}</div>
+                    <table class="set-table">
+                        <thead>
+                            <tr>
+                                <th>Set</th>
+                                <th>Reps</th>
+                                <th>Weight (kg)</th>
+                                <th>Variation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for set in sets %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ set.reps if set.reps else '-' }}</td>
+                                <td>
+                                    {% if set.weight and set.weight > 0 %}
+                                        {{ (set.weight / 1000) | round(1) }}
+                                    {% elif set.weight and set.weight == -1 %}
+                                        BW
+                                    {% else %}
+                                        -
+                                    {% endif %}
+                                </td>
+                                <td class="variation-name">{{ set.activityName.replace('_', ' ').title() if set.activityName else '-' }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% endfor %}
+            </div>
         </div>
-        {% endfor %}
     </div>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>

@@ -21,15 +21,22 @@
         </div>
         <input type="text" id="search" placeholder="Search exercises..." class="search-box">
         <div class="exercise-grid" id="exercise-grid">
-            {% for exercise_name, dates in exercises.items() %}
+            {% for exercise_name, exercise_data in exercises.items() %}
+            {% set sessions = exercise_data.sessions %}
+            {% set dates = sessions.keys() | list %}
+            {% set ns = namespace(total_sets=0) %}
+            {% for d in dates %}
+                {% set ns.total_sets = ns.total_sets + sessions[d] | length %}
+            {% endfor %}
             <a href="/exercise/{{ exercise_name }}" class="exercise-card" data-name="{{ exercise_name }}">
                 <div class="exercise-name">{{ exercise_name.replace('_', ' ').title() }}</div>
                 <div class="exercise-stats">
-                    <span>📅 {{ dates.keys() | list | length }} sessions</span>
-                    <span>📊 {{ dates.values() | map('length') | sum }} total sets</span>
+                    <span>📅 {{ dates | length }} sessions</span>
+                    <span>📊 {{ ns.total_sets }} total sets</span>
                 </div>
-                {% set latest_date = dates.keys() | list | last %}
-                {% set latest_sets = dates[latest_date] %}
+                {% if dates | length > 0 %}
+                {% set latest_date = dates | last %}
+                {% set latest_sets = sessions[latest_date] %}
                 <div class="latest-session">
                     <span class="label">Latest: {{ latest_date }}</span>
                     <div class="mini-sets">
@@ -40,6 +47,7 @@
                         {% endfor %}
                     </div>
                 </div>
+                {% endif %}
             </a>
             {% endfor %}
         </div>
@@ -49,29 +57,21 @@
             const btn = document.getElementById('sync-all-btn');
             btn.disabled = true;
             btn.textContent = '⏳ Syncing All...';
-            
             try {
                 const res = await fetch('/sync-all', { method: 'POST' });
                 const data = await res.json();
-                
                 if (data.success) {
                     btn.textContent = '✅ Synced!';
                     setTimeout(() => location.reload(), 1000);
                 } else {
                     btn.textContent = '❌ Failed';
                     alert(data.message);
-                    setTimeout(() => {
-                        btn.disabled = false;
-                        btn.textContent = '🔄 Sync All';
-                    }, 2000);
+                    setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync All'; }, 2000);
                 }
             } catch(e) {
                 btn.textContent = '❌ Error';
                 alert('Error: ' + e);
-                setTimeout(() => {
-                    btn.disabled = false;
-                    btn.textContent = '🔄 Sync All';
-                }, 2000);
+                setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync All'; }, 2000);
             }
         }
 
@@ -79,29 +79,21 @@
             const btn = document.getElementById('sync-last-btn');
             btn.disabled = true;
             btn.textContent = '⏳ Syncing...';
-            
             try {
                 const res = await fetch('/sync-last5', { method: 'POST' });
                 const data = await res.json();
-                
                 if (data.success) {
                     btn.textContent = '✅ Synced!';
                     setTimeout(() => location.reload(), 1000);
                 } else {
                     btn.textContent = '❌ Failed';
                     alert(data.message);
-                    setTimeout(() => {
-                        btn.disabled = false;
-                        btn.textContent = '🔄 Sync Last 5';
-                    }, 2000);
+                    setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync Last 5'; }, 2000);
                 }
             } catch(e) {
                 btn.textContent = '❌ Error';
                 alert('Error: ' + e);
-                setTimeout(() => {
-                    btn.disabled = false;
-                    btn.textContent = '🔄 Sync Last 5';
-                }, 2000);
+                setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Sync Last 5'; }, 2000);
             }
         }
     </script>

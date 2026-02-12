@@ -3,11 +3,11 @@ def main():
     from parse import parse
     
     syncing = False
-    parsing = False
+    parsing = True
     web_server = True
 
     make_dirs_and_files()
-    
+
     if syncing:
         sync(True)
     if parsing:
