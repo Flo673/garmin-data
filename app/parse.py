@@ -18,13 +18,24 @@ def parse():
                 if exercise_name not in exercises:
                     exercises[exercise_name] = {
                         "analytics": {
-                            "rep_max": [[0, ""]]*10
+                            "statistics": {
+                                "rep_max": [[0, ""]]*12
+                            },
+                            "session_metrics": {
+
+                            }
+
                         },
                         "sessions": {}
                     }
                 if date not in exercises[exercise_name]["sessions"].keys():
                     exercises[exercise_name]["sessions"][date] = []
-
+                    exercises[exercise_name]["analytics"]["session_metrics"][date] = {
+                        "estimated_1rm": 0,
+                        "estimated_5rm": 0,
+                    }
+                if sset["weight"] is None:
+                    sset["weight"] = 0
                 exercises[exercise_name]["sessions"][date].append({
                     "activityId": data["activityId"],
                     "ssetID": sset["messageIndex"],
@@ -32,12 +43,19 @@ def parse():
                     "weight": sset["weight"],
                     "date": date,
                 })
-                rep_max = exercises[exercise_name]["analytics"]["rep_max"]
 
-                if sset["weight"] is not None and sset["weight"] > rep_max[min(9, sset["repetitionCount"] - 1)][0]:
+                curr_session_metrics = exercises[exercise_name]["analytics"]["session_metrics"][date]
+                estimated_1rm = calculate1rm(sset["weight"], sset["repetitionCount"])
+                if estimated_1rm > curr_session_metrics["estimated_1rm"]:
+                    curr_session_metrics["estimated_1rm"] = estimated_1rm
+                    curr_session_metrics["estimated_5rm"] = calculate5rm(sset["weight"], sset["repetitionCount"])
+
+                rep_max = exercises[exercise_name]["analytics"]["statistics"]["rep_max"]
+
+                if sset["weight"] is not None and sset["weight"] > rep_max[min(11, sset["repetitionCount"] - 1)][0]:
                     
-                    rep_max[min(9, sset["repetitionCount"] - 1)] = [sset["weight"], date, sset["repetitionCount"] < 11]
-                    for rep in range(min(8, sset["repetitionCount"] - 2), -1, -1):
+                    rep_max[min(11, sset["repetitionCount"] - 1)] = [sset["weight"], date, sset["repetitionCount"] < 13]
+                    for rep in range(min(10, sset["repetitionCount"] - 2), -1, -1):
                         if sset["weight"] > rep_max[rep][0]:
                             rep_max[rep] = [sset["weight"], date, False]
                         else:
@@ -55,5 +73,12 @@ def parse():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(exercises, f, indent=2)
 
+def calculate1rm(weight, reps):
+    # Using standard bryzki formula:
+    return weight * (1.0 / (1.0278 - 0.0278 * reps))
 
+def calculate5rm(weight, reps):
+    # Using standard bryzki formula:
+
+    return calculate1rm(weight, reps) * (1.0 - 0.0278 * 4)
             

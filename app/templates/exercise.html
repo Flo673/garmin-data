@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ exercise_name.replace('_', ' ').title() }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='js/rm_chart.js') }}"></script>
 </head>
 <body>
     <div class="container">
@@ -13,11 +15,29 @@
             <h1>{{ exercise_name.replace('_', ' ').title() }}</h1>
         </div>
 
+        {% set session_metrics = exercise_data.analytics.session_metrics if exercise_data.analytics else {} %}
+        {% if session_metrics %}
+        <div class="chart-section">
+            <div class="chart-header">
+                <span class="chart-title">Estimated RM Over Time</span>
+                <div class="chart-buttons">
+                    <button id="btn-1rm" onclick="showRM(rmChart, '1rm')" class="toggle-btn active">1RM</button>
+                    <button id="btn-5rm" onclick="showRM(rmChart, '5rm')" class="toggle-btn">5RM</button>
+                </div>
+            </div>
+            <canvas id="rmChart" height="200"></canvas>
+        </div>
+        <script>
+            const sessionMetrics = JSON.parse('{{ session_metrics | tojson | e }}');
+            const rmChart = initRMChart(sessionMetrics);
+        </script>
+        {% endif %}
+
         <div class="exercise-layout">
             {% set analytics = exercise_data.analytics %}
             {% if analytics and analytics.rep_max %}
             <aside class="rep-max-sidebar">
-                <div class="rep-max-title">🏆 Rep Max</div>
+                <div class="rep-max-title">Rep Max</div>
                 <div class="rep-max-list">
                     {% for entry in analytics.rep_max %}
                     <div class="rep-max-row {% if entry | length >= 3 and entry[2] %}actual{% else %}estimated{% endif %}">
@@ -43,7 +63,7 @@
                 {% set sessions = exercise_data.sessions %}
                 {% for date, sets in sessions.items() | reverse %}
                 <div class="date-section">
-                    <div class="date-header">📅 {{ date }}</div>
+                    <div class="date-header">{{ date }}</div>
                     <table class="set-table">
                         <thead>
                             <tr>
