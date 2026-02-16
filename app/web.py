@@ -8,7 +8,7 @@ import config
 app = Flask(__name__)
 
 def load_exercises():
-    json_path = Path(__file__).parent.parent / "data" / "exercise_json" / "parsed_exercises.json"
+    json_path = Path(__file__).parent.parent / "data" / "parsed_jsons" / "parsed_exercises.json"
     
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)

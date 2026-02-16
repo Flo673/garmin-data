@@ -20,13 +20,26 @@ def main():
 
 def make_dirs_and_files():
     from pathlib import Path
-    basedir_1 = Path(__file__).parent.parent / "data" / "jsons"
-    basedir_2 = Path(__file__).parent.parent / "data" / "exercise_json"
+    basedir_1 = Path(__file__).parent.parent / "data" / "raw_exercise_jsons"
+    basedir_2 = Path(__file__).parent.parent / "data" / "parsed_jsons"
+    basedir_3 = Path(__file__).parent.parent / "data" / "raw_weight_history"
     basedir_1.mkdir(parents=True, exist_ok=True)
     basedir_2.mkdir(parents=True, exist_ok=True)
     exercise_json_path = basedir_2 / "parsed_exercises.json"
+    weight_history_path = Path(__file__).parent.parent / "data" / "parsed_jsons" / "weight_history.json"
+    raw_weight_history_path = Path(__file__).parent.parent / "data" / "parsed_jsons" / "raw_weight_history.json"
+
+
     if not exercise_json_path.exists():
         with open(exercise_json_path, "w", encoding="utf-8") as f:
+            f.write("{}")
+
+    if not weight_history_path.exists():
+        with open(weight_history_path, "w", encoding="utf-8") as f:
+            f.write("{}")
+
+    if not raw_weight_history_path.exists():
+        with open(raw_weight_history_path, "w", encoding="utf-8") as f:
             f.write("{}")
     
 
