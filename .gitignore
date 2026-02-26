@@ -10,3 +10,5 @@ __pycache__/
 *.pyd
 .Python
 settings.json
+encrypt.py
+private_key.pem

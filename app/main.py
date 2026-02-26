@@ -1,13 +1,15 @@
 def main():
     from sync import sync
     from parse import parse
+    from decrypt import auto_decrypt
+
     
     syncing = False
     parsing = True
     web_server = True
 
     make_dirs_and_files()
-
+    auto_decrypt()
     if syncing:
         sync(True)
     if parsing:
