@@ -18,6 +18,14 @@
             <h1>{{ exercise_name.replace('_', ' ').title() }}</h1>
         </div>
 
+        {% if exercise_data.muscle_used and exercise_data.muscle_used[0] != 'UNCATEGORIZED' %}
+        <div class="muscle-tags" style="margin-bottom: 16px;">
+            {% for muscle in exercise_data.muscle_used %}
+            <span class="muscle-tag">{{ muscle.replace('_', ' ').title() }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
         {% set session_metrics = exercise_data.analytics.session_metrics if exercise_data.analytics else {} %}
         {% if session_metrics %}
         <div class="chart-section">

@@ -45,7 +45,7 @@ def parse():
 
                         },
                         "sessions": {},
-                        "muscle_category": muscle_groups.get(exercise_name, "UNCATEGORIZED")
+                        "muscle_used": muscle_groups.get(exercise_name, ["UNCATEGORIZED"])
                     }
                 if date not in exercises[exercise_name]["sessions"].keys():
                     exercises[exercise_name]["sessions"][date] = []
@@ -161,9 +161,5 @@ def load_categories():
     
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-        cache = {}
-        for category, exercises in data.items():
-            for exercise in exercises:
-                cache[exercise] = category
-        return cache
+        return data
 

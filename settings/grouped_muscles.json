@@ -1,0 +1,29 @@
+{
+    "PUSH": [
+        "CHEST",
+        "SHOULDERS",
+        "TRICEPS"
+    ],
+    "PULL": [
+        "BACK",
+        "BICEPS",
+        "FOREARMS",
+        "TRAPS",
+        "LATS"
+    ],
+    "LEGS": [
+        "QUADS",
+        "HAMSTRINGS",
+        "GLUTES",
+        "CALVES",
+        "HIP",
+        "SHINS",
+        "THIGHS"
+    ],
+    "CORE": [
+        "ABS",
+        "OBLIQUES",
+        "LOWER_BACK",
+        "HIP"
+    ]
+}

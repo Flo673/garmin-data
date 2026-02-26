@@ -1,9 +1,6336 @@
 {
-    "CHEST": ["INCLINE_BENCH_PRESS", "BENCH_PRESS", "CHEST_FLY", "Flye", "FLYE"],
-    "BACK": ["PULL_UP", "LAT_PULLDOWN", "BENT_OVER_ROW"],
-    "LEGS": ["SQUAT", "LEG_PRESS", "LUNGES"],
-    "ARMS": ["BICEP_CURL", "TRICEP_EXTENSION", "HAMMER_CURL"],
-    "SHOULDERS": ["OVERHEAD_PRESS", "LATERAL_RAISE", "FRONT_RAISE"],
-    "CORE": ["PLANK", "CRUNCHES", "RUSSIAN_TWIST"],
-    "UNCATEGORIZED": []
+  "30_DEGREE_LAT_PULLDOWN": [
+    "LATS",
+    "TRAPS"
+  ],
+  "3_WAY_CALF_RAISE": [
+    "CALVES"
+  ],
+  "3_WAY_SINGLE_LEG_CALF_RAISE": [
+    "CALVES"
+  ],
+  "3_WAY_WEIGHTED_CALF_RAISE": [
+    "CALVES"
+  ],
+  "3_WAY_WEIGHTED_SINGLE_LEG_CALF_RAISE": [
+    "CALVES"
+  ],
+  "45_DEGREE_CABLE_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "45_DEGREE_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "90/90_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "90_DEGREE_CABLE_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "90_DEGREE_STATIC_HOLD": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "ABS_JABS": [
+    "ABS"
+  ],
+  "ABS_STRETCH": [
+    "ABS"
+  ],
+  "AGILITY_LADDER": [
+    "QUADS",
+    "CALVES"
+  ],
+  "AIR_BIKE": [
+    "ABS",
+    "HIP"
+  ],
+  "AIR_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ALTERNATING_BARBELL_FORWARD_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ALTERNATING_BOX_DUMBBELL_STEP_UPS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ALTERNATING_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "ALTERNATING_DUMBBELL_BICEPS_CURL_ON_SWISS_BALL": [
+    "BICEPS",
+    "ABS"
+  ],
+  "ALTERNATING_DUMBBELL_CHEST_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "ALTERNATING_DUMBBELL_CHEST_PRESS_ON_SWISS_BALL": [
+    "CHEST",
+    "TRICEPS",
+    "ABS"
+  ],
+  "ALTERNATING_DUMBBELL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ALTERNATING_DUMBBELL_LUNGE_WITH_REACH": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "ALTERNATING_DUMBBELL_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "ALTERNATING_DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ALTERNATING_DUMBBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "ALTERNATING_HANDS_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "ALTERNATING_INCLINE_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "ALTERNATING_JUMP_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ALTERNATING_LATERAL_RAISE_WITH_STATIC_HOLD": [
+    "SHOULDERS"
+  ],
+  "ALTERNATING_PLATE_REACH": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "ALTERNATING_SIT_UP": [
+    "ABS"
+  ],
+  "ALTERNATING_SLIDE_OUT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "ALTERNATING_STAGGERED_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "AMERICAN_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "ANKLE_CIRCLES": [
+    "CALVES"
+  ],
+  "ANKLE_DORSIFLEXION_WITH_BAND": [
+    "CALVES"
+  ],
+  "ANKLE_INTERNAL_ROTATION": [
+    "CALVES"
+  ],
+  "ARM_CIRCLES": [
+    "SHOULDERS"
+  ],
+  "ARNOLD_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "ASSAULT_BIKE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BACK_EXTENSION_WITH_OPPOSITE_ARM_AND_LEG_REACH": [
+    "LOWER_BACK",
+    "GLUTES",
+    "TRAPS"
+  ],
+  "BACK_FOOT_ELEVATED_DUMBBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BACK_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BACK_SQUAT_WITH_BODY_BAR": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BALANCING_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "BAND_ASSISTED_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BAND_ASSISTED_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BANDED_AB_TWIST": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BANDED_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES"
+  ],
+  "BANDED_BICYCLE_CRUNCH": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BANDED_CALF_RAISES": [
+    "CALVES"
+  ],
+  "BANDED_CLAM_SHELLS": [
+    "HIP",
+    "GLUTES"
+  ],
+  "BANDED_CURL": [
+    "BICEPS"
+  ],
+  "BANDED_DEADBUG": [
+    "ABS",
+    "HIP"
+  ],
+  "BANDED_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "BANDED_DONKEY_KICK": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BANDED_EXERCISES": [
+    "UNCATEGORIZED"
+  ],
+  "BANDED_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "BANDED_EXTERNAL_ROTATION_AT_90_DEGREE_ABDUCTION": [
+    "SHOULDERS"
+  ],
+  "BANDED_FACE_PULLS": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "BANDED_FIRE_HYDRANT": [
+    "HIP",
+    "GLUTES"
+  ],
+  "BANDED_FLY": [
+    "CHEST"
+  ],
+  "BANDED_FRONT_RAISE": [
+    "SHOULDERS"
+  ],
+  "BANDED_GLUTE_BRIDGE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BANDED_HAMSTRING_CURLS": [
+    "HAMSTRINGS"
+  ],
+  "BANDED_HIGH_PLANK_LEG_LIFTS": [
+    "ABS",
+    "GLUTES"
+  ],
+  "BANDED_HIP_EXTENSION": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BANDED_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "BANDED_JUMPING_JACK": [
+    "QUADS",
+    "HIP",
+    "CALVES"
+  ],
+  "BANDED_KNEELING_CRUNCH": [
+    "ABS"
+  ],
+  "BANDED_LATERAL_BAND_WALKS": [
+    "HIP",
+    "GLUTES"
+  ],
+  "BANDED_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "BANDED_LATPULL": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BANDED_LEG_ABDUCTION": [
+    "HIP",
+    "GLUTES"
+  ],
+  "BANDED_LEG_ADDUCTION": [
+    "HIP"
+  ],
+  "BANDED_LEG_EXTENSION": [
+    "QUADS"
+  ],
+  "BANDED_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BANDED_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "BANDED_PULL_APART": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "BANDED_PULL_UPS_(PROGRESSION)": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BANDED_PUSH_UPS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "BANDED_REVERSE_CRUNCH": [
+    "ABS",
+    "HIP"
+  ],
+  "BANDED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BANDED_SHOULDER_ABDUCTION": [
+    "SHOULDERS"
+  ],
+  "BANDED_SHOULDER_EXTENSION": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "BANDED_SHOULDER_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "SHOULDER_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "BANDED_SHOULDER_FLEXION_TO_90_DEGREES": [
+    "SHOULDERS"
+  ],
+  "BANDED_SIDE_PLANK_LEG_LIFTS": [
+    "OBLIQUES",
+    "HIP",
+    "GLUTES"
+  ],
+  "BANDED_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BANDED_SQUAT_TO_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BANDED_TRICEP_EXTENSION": [
+    "TRICEPS"
+  ],
+  "BANDED_TRICEP_KICK_BACK": [
+    "TRICEPS"
+  ],
+  "BANDED_UPRIGHT_ROW": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "BANDED_WALL_CRAWL_WITH_EXTERNAL_ROTATION": [
+    "SHOULDERS",
+    "ABS"
+  ],
+  "BAND_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "BAND_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "BAND_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "BAND_SIDE_LYING_LEG_RAISE": [
+    "HIP",
+    "GLUTES"
+  ],
+  "BARBELL_BACK_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "BARBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "BARBELL_BOARD_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "BARBELL_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_BOX_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_BULGARIAN_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_BURPEE": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "BARBELL_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BARBELL_CROSSOVER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "BARBELL_FLOOR_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_FRONT_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_FRONT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "BARBELL_FRONT_SQUAT_TO_PUSH_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "BARBELL_HACK_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_HANG_POWER_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BARBELL_HANG_POWER_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BARBELL_HANG_PULL": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_HANG_SQUAT_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_HANG_SQUAT_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_HIGH_PULL": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_HIP_THRUST_ON_FLOOR": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_HIP_THRUST_WITH_BENCH": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_JUMP_SHRUG": [
+    "TRAPS"
+  ],
+  "BARBELL_JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_LATERAL_STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "OVERHEAD_BARBELL_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "BARBELL_POWER_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BARBELL_POWER_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BARBELL_PUSH_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_QUARTER_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_REVERSE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_REVERSE_WRIST_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "BARBELL_ROLL_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BARBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "BARBELL_SHRUG": [
+    "TRAPS"
+  ],
+  "BARBELL_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_SIFF_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "BARBELL_SPLIT_JERK": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_SQUAT_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_SQUAT_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_SQUAT_WITH_HEELS_RAISED": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_STEP_OVER": [
+    "UNCATEGORIZED"
+  ],
+  "BARBELL_STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BARBELL_STRAIGHT_LEG_DEADLIFT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "BARBELL_STRAIGHT_LEG_DEADLIFT_TO_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BARBELL_UPRIGHT_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BARBELL_WRIST_CURL": [
+    "BICEPS"
+  ],
+  "BAR_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "BAR_HOLDS": [
+    "UNCATEGORIZED"
+  ],
+  "BAR_MUSCLE_UP": [
+    "LATS",
+    "TRICEPS",
+    "CHEST"
+  ],
+  "BASE_ROTATIONS": [
+    "UNCATEGORIZED"
+  ],
+  "BATTLE_ROPE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_FIGURE_EIGHT": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_JUMP_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_KNEELING_TO_STANDING_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_LUNGE_WAVE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_SQUAT_WAVE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_ALTERNATING_WAVE_WITH_LATERAL_SHUFFLE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_CLAP_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_DOUBLE_ARM_FIGURE_EIGHT": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_DOUBLE_ARM_SIDE_TO_SIDE_SNAKE": [
+    "SHOULDERS",
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BATTLE_ROPE_DOUBLE_ARM_SIDE_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BATTLE_ROPE_DOUBLE_ARM_SLAM": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_DOUBLE_ARM_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_GRAPPLER_TOSS": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_HIP_TOSS": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_IN_AND_OUT_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_INSIDE_CIRCLE": [
+    "SHOULDERS",
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BATTLE_ROPE_JUMPING_JACKS": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_OUTSIDE_CIRCLE": [
+    "SHOULDERS",
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BATTLE_ROPE_RAINBOW": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_SIDE_PLANK_WAVE": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "BATTLE_ROPE_SIDEWINDER": [
+    "SHOULDERS",
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BATTLE_ROPE_SITTING_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "BATTLE_ROPE_SNAKE_WAVE": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_SPLIT_JACK": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_STAGE_COACH": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_ULTIMATE_WARRIOR": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BATTLE_ROPE_UPPER_CUTS": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "BEAR_CRAWL": [
+    "SHOULDERS",
+    "ABS",
+    "QUADS"
+  ],
+  "BEHIND_THE_BACK_BARBELL_REVERSE_WRIST_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "BEHIND_THE_BACK_ONE_ARM_CABLE_CURL": [
+    "BICEPS"
+  ],
+  "BEHIND_THE_BACK_SHRUG": [
+    "TRAPS"
+  ],
+  "BEHIND_THE_BACK_SMITH_MACHINE_SHRUG": [
+    "TRAPS"
+  ],
+  "BENCH_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "BENCH_SQUAT_WITH_ROTATIONAL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "BENT_ARM_LATERAL_RAISE_AND_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "BENT_KNEE_REVERSE_HYPEREXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BENT_KNEE_SWISS_BALL_REVERSE_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BENT_KNEE_V_UP": [
+    "ABS"
+  ],
+  "BENT_OVER_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "BENT_OVER_REACH_TO_SKY": [
+    "UNCATEGORIZED"
+  ],
+  "BENT_OVER_ROW_WITH_BARBELL": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BENT_OVER_ROW_WITH_DUMBBELL": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BICEPS_PUSH_UP": [
+    "BICEPS"
+  ],
+  "BICEPS_STRETCH": [
+    "BICEPS"
+  ],
+  "BICYCLE_CRUNCH": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "BIKE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BIKE_OUTDOOR": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BOB_AND_WEAVE_CIRCLE": [
+    "UNCATEGORIZED"
+  ],
+  "BODY_BAR_OBLIQUE_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "BODY_WEIGHT_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "BODY_WEIGHT_JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BODY_WEIGHT_WALL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BOX_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "BOX_JUMP_OVERS": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "BOX_JUMP_OVERS_OVER_THE_BOX": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "BOX_STEP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BRACED_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BRIDGE_WITH_LEG_EXTENSION": [
+    "QUADS"
+  ],
+  "BURPEE": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "BURPEE_BOX_JUMP": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "BURPEE_BOX_JUMP_OVER": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "BURPEE_BOX_JUMP_STEP_UP_OVER": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "BURPEE_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "BUTTERFLY_SIT_UP": [
+    "CHEST"
+  ],
+  "BUTTERFLY_STRETCH": [
+    "CHEST"
+  ],
+  "CABLE_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "CABLE_CORE_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "CABLE_CROSSOVER": [
+    "UNCATEGORIZED"
+  ],
+  "CABLE_CRUNCH": [
+    "ABS"
+  ],
+  "CABLE_DIAGONAL_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "CABLE_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "CABLE_FRONT_RAISE": [
+    "SHOULDERS"
+  ],
+  "CABLE_HAMMER_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "CABLE_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "CABLE_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "CABLE_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "CABLE_PULL_THROUGH": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "CABLE_ROTATIONAL_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "CABLE_ROW_STANDING": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CABLE_SIDE_BEND": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "CABLE_TRICEP_KICK_BACK": [
+    "TRICEPS"
+  ],
+  "CABLE_WOODCHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "CALF_RAISE": [
+    "CALVES"
+  ],
+  "CALF_STRETCH": [
+    "CALVES"
+  ],
+  "CALORIE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CARDIO": [
+    "UNCATEGORIZED"
+  ],
+  "CARDIO_CORE_CRAWL": [
+    "UNCATEGORIZED"
+  ],
+  "CARRY": [
+    "FOREARMS",
+    "TRAPS",
+    "ABS"
+  ],
+  "CAT_CAMEL": [
+    "UNCATEGORIZED"
+  ],
+  "CAT_COW_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "CHEATING_BARBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "CHEST_PRESS_WITH_BAND": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "CHEST_SUPPORTED_DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CHILD'S_POSE_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "CIRCULAR_ARM_CRUNCH": [
+    "ABS"
+  ],
+  "CLAM_BRIDGE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "CLAPPING_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "CLEAN_AND_JERK": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "CLEAN_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "CLOSE_GRIP_BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "CLOSE_GRIP_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CLOSE_GRIP_EZ_BAR_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "CLOSE_GRIP_LAT_PULLDOWN": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CLOSE_GRIP_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "CLOSE_HANDS_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "COBRA_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "COMBO_SHOULDER_RAISE": [
+    "SHOULDERS"
+  ],
+  "CORE": [
+    "UNCATEGORIZED"
+  ],
+  "CORE_CONTROL_REAR_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "CRESCENT_CIRCLE": [
+    "UNCATEGORIZED"
+  ],
+  "CROSS_BODY_DUMBBELL_HAMMER_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "CROSS_BODY_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "CROSS_CHOP_TO_KNEE": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "CROSSED_ARM_BARBELL_FRONT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "CROSSED_ARMS_CRUNCH": [
+    "ABS"
+  ],
+  "CROSSED_ARMS_SIT_UP": [
+    "ABS"
+  ],
+  "CROSSED_LEG_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "CROSS_KNEE_STRIKE": [
+    "UNCATEGORIZED"
+  ],
+  "CROSSOVER_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "CROSSOVER_DUMBBELL_STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "CROSS_PUNCH_ROLL_UP": [
+    "UNCATEGORIZED"
+  ],
+  "CRUNCH": [
+    "ABS"
+  ],
+  "CRUNCH_CHOP": [
+    "ABS"
+  ],
+  "CURL": [
+    "BICEPS"
+  ],
+  "CURTSY_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "CYCLING_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "DEAD_BUG": [
+    "ABS"
+  ],
+  "DEAD_CURL_PRESS": [
+    "BICEPS"
+  ],
+  "DEAD_HANG_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "DECLINE_DUMBBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "DECLINE_DUMBBELL_FLY": [
+    "CHEST"
+  ],
+  "DECLINE_HAMMER_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "DECLINE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "DECLINE_RING_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "DEPTH_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "DIAGONAL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DIAMOND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "DONKEY_CALF_RAISE": [
+    "CALVES"
+  ],
+  "DOUBLE_CRUNCH": [
+    "ABS"
+  ],
+  "DOUBLE_UNDER": [
+    "CALVES",
+    "SHOULDERS"
+  ],
+  "DROP_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_ALTERNATING_SHOULDER_PRESS_AND_TWIST": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "DUMBBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "DUMBBELL_BICEPS_CURL_WITH_STATIC_HOLD": [
+    "BICEPS"
+  ],
+  "DUMBBELL_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_BULGARIAN_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "DUMBBELL_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_CROSSOVER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "DUMBBELL_DIAGONAL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_DIAGONAL_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "DUMBBELL_FACE_PULL_WITH_EXTERNAL_ROTATION": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "DUMBBELL_FLOOR_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "DUMBBELL_FLY": [
+    "CHEST"
+  ],
+  "DUMBBELL_FRONT_RAISE": [
+    "SHOULDERS"
+  ],
+  "DUMBBELL_FRONT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "DUMBBELL_HAMMER_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "DUMBBELL_HAMMER_CURL_TO_LUNGE_TO_PRESS": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "DUMBBELL_HANG_PULL": [
+    "UNCATEGORIZED"
+  ],
+  "DUMBBELL_HANG_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_JUMP_SHRUG": [
+    "TRAPS"
+  ],
+  "DUMBBELL_JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_KICK_BACK": [
+    "TRICEPS"
+  ],
+  "DUMBBELL_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "DUMBBELL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_LUNGE_AND_ROTATION": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "DUMBBELL_OVERHEAD_BULGARIAN_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "DUMBBELL_OVERHEAD_SQUAT_SINGLE_ARM": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "DUMBBELL_OVERHEAD_WALKING_LUNGE": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "DUMBBELL_POWER_CLEAN_AND_JERK": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_POWER_CLEAN_AND_PUSH_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_POWER_CLEAN_AND_STRICT_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_PUSH_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "DUMBBELL_REVERSE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_REVERSE_LUNGE_TO_HIGH_KNEE_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_REVERSE_WRIST_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "DUMBBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "DUMBBELL_SHRUG": [
+    "TRAPS"
+  ],
+  "DUMBBELL_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_SINGLE_LEG_DEADLIFT_TO_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "DUMBBELL_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "DUMBBELL_SPLIT_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "DUMBBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_SQUAT_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_SQUAT_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_STEP_OVER": [
+    "UNCATEGORIZED"
+  ],
+  "DUMBBELL_STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "DUMBBELL_STRAIGHT_LEG_DEADLIFT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "DUMBBELL_THRUSTERS": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "DUMBBELL_UPRIGHT_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "DUMBBELL_V_RAISE": [
+    "SHOULDERS"
+  ],
+  "DUMBBELL_WAITER_CARRY": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "DUMBBELL_WRIST_CURL": [
+    "BICEPS"
+  ],
+  "DYNAMIC_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "ELBOW_PLANK_PIKE_JACKS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "ELBOW_TO_FOOT_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ELBOW_TO_KNEE_CRUNCH": [
+    "ABS"
+  ],
+  "ELEVATED_FEET_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ELEVATED_FEET_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "ELEVATED_FEET_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "ELEVATED_FRONT_FOOT_BARBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ELEVATED_FRONT_FOOT_DUMBBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ELEVATED_RING_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ELEVATED_SINGLE_LEG_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ELEVATOR_ABS": [
+    "UNCATEGORIZED"
+  ],
+  "ELLIPTICAL": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "EXPLOSIVE_CROSSOVER_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "EXPLOSIVE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "EXTENDED_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "EXTERNAL_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "EZ_BAR_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "EZ_BAR_PREACHER_CURL": [
+    "BICEPS"
+  ],
+  "EZ_BAR_PULL_OVER": [
+    "CHEST",
+    "LATS",
+    "TRICEPS"
+  ],
+  "FACE_PULL": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "FACE_PULL_WITH_EXTERNAL_ROTATION": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "FARMER'S_CARRY": [
+    "FOREARMS",
+    "TRAPS",
+    "ABS"
+  ],
+  "FARMER'S_CARRY_ON_TOES": [
+    "FOREARMS",
+    "TRAPS",
+    "ABS"
+  ],
+  "FARMER'S_CARRY_WALK_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "FARMER'S_WALK": [
+    "FOREARMS",
+    "TRAPS",
+    "ABS"
+  ],
+  "FARMER'S_WALK_ON_TOES": [
+    "FOREARMS",
+    "TRAPS",
+    "ABS"
+  ],
+  "FEET_ELEVATED_SIDE_TO_SIDE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "FIGURE_FOUR_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "FIRE_HYDRANT_KICKS": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "FLOOR_CLIMB": [
+    "UNCATEGORIZED"
+  ],
+  "FLOOR_INVERTED_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "FLOOR_I_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "FLOOR_T_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "FLOOR_Y_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "FLUTTER_KICKS": [
+    "UNCATEGORIZED"
+  ],
+  "FLY": [
+    "CHEST"
+  ],
+  "FOAM_ROLLER_REVERSE_CRUNCH_ON_BENCH": [
+    "ABS"
+  ],
+  "FOAM_ROLLER_REVERSE_CRUNCH_WITH_DUMBBELL": [
+    "ABS"
+  ],
+  "FOAM_ROLLER_REVERSE_CRUNCH_WITH_MEDICINE_BALL": [
+    "ABS"
+  ],
+  "FOREARM_STRETCH": [
+    "FOREARMS"
+  ],
+  "FORWARD_AND_BACKWARD_LEG_SWINGS": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "FORWARD_BEND_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "FORWARD_GLUTES_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "FROG_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "FRONT_KICK_TABLETOP": [
+    "UNCATEGORIZED"
+  ],
+  "FRONT_KNEE_STRIKE": [
+    "UNCATEGORIZED"
+  ],
+  "FRONT_RAISE": [
+    "SHOULDERS"
+  ],
+  "FRONT_SPLIT_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "FULL_PLANK_PASS\u00c3\u00a9_TWIST": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "GET_UP_SIT_UP": [
+    "ABS"
+  ],
+  "GHD_BACK_EXTENSIONS": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "BACK_EXTENSIONS": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "GHD_SIT_UPS": [
+    "ABS"
+  ],
+  "GLUTES_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "GOBLET_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "GROINERS": [
+    "UNCATEGORIZED"
+  ],
+  "GUNSLINGER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HALF_KNEELING_ROTATION": [
+    "UNCATEGORIZED"
+  ],
+  "HALF_KNEELING_ROTATIONAL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "HALF_KNEELING_ROTATIONAL_REVERSE_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "HALF_KNEELING_STABILITY_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "HALF_KNEELING_STABILITY_REVERSE_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "HALF_TURKISH_GET_UP": [
+    "ABS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "HAMMER_CURL_TO_PRESS": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "HAMSTRING_STRETCH": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "HAND_RELEASE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "HANGING_HURDLE": [
+    "UNCATEGORIZED"
+  ],
+  "HANGING_KNEE_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "HANGING_KNEE_RAISE_OBLIQUE_CRUNCH": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "HANGING_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "HANGING_L_SIT": [
+    "UNCATEGORIZED"
+  ],
+  "HANGING_SINGLE_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "HEX_DUMBBELL_HOLD": [
+    "UNCATEGORIZED"
+  ],
+  "HIGH_BOX_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "HIGH_PULL_BURPEE": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "HINDU_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "HIP_CIRCLES": [
+    "UNCATEGORIZED"
+  ],
+  "HIP_CROSSOVER": [
+    "UNCATEGORIZED"
+  ],
+  "HIP_EXTENSION_AND_CROSS": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HIP_FLEXOR_AND_QUAD_STRETCH": [
+    "QUADS"
+  ],
+  "HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HIP_RAISE_WITH_FEET_ON_SWISS_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HIP_RAISE_WITH_HEAD_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HIP_RAISE_WITH_HEAD_ON_SWISS_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HIP_RAISE_WITH_KNEE_SQUEEZE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HIP_STABILITY": [
+    "UNCATEGORIZED"
+  ],
+  "HIP_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "HOLLOW,_HOLD,_AND_ROLL": [
+    "ABS"
+  ],
+  "HOLLOW_ROCK": [
+    "ABS"
+  ],
+  "HOVERING_SIT_UP": [
+    "ABS"
+  ],
+  "HYPEREXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "INCHING_ELBOW_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "INCHWORM": [
+    "HAMSTRINGS",
+    "SHOULDERS",
+    "ABS"
+  ],
+  "INCHWORM_TO_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "INCLINE_BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "INCLINE_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "INCLINE_DUMBBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "INCLINE_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "INCLINE_DUMBBELL_FLY": [
+    "CHEST"
+  ],
+  "FLYE": [
+    "CHEST"
+  ],
+  "INCLINE_DUMBBELL_SHRUG": [
+    "TRAPS"
+  ],
+  "INCLINE_EZ_BAR_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "INCLINE_I_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "INCLINE_L_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "INCLINE_OFFSET_THUMB_DUMBBELL_CURL": [
+    "BICEPS"
+  ],
+  "INCLINE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "INCLINE_REAR_LEG_EXTENSION": [
+    "QUADS"
+  ],
+  "INCLINE_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "INCLINE_REVERSE_FLY": [
+    "CHEST"
+  ],
+  "INCLINE_SMITH_MACHINE_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "INCLINE_T_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "INCLINE_W_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "INCLINE_Y_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "INDOOR_BIKE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "INDOOR_TRACK_RUN": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "INNER_THIGH_LIFT": [
+    "THIGHS"
+  ],
+  "INVERTED_HAMSTRING_STRETCH": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "INVERTED_ROW_WITH_FEET_ON_SWISS_BALL": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "INVERTED_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "ISOMETRIC_BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "ISOMETRIC_EXPLOSIVE_BODY_WEIGHT_JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "ISOMETRIC_EXPLOSIVE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "JOG": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "JUDO_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "JUMPING_JACKS": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "JUMPING_PULL_UPS": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "JUMP_ROPE": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "JUMP_ROPE_CROSSOVER": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "JUMP_ROPE_JOG": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "KETTLEBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "KETTLEBELL_CHEST_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "KETTLEBELL_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "KETTLEBELL_FLOOR_TO_SHELF": [
+    "UNCATEGORIZED"
+  ],
+  "KETTLEBELL_FLY": [
+    "CHEST"
+  ],
+  "KETTLEBELL_LEG_RAISES": [
+    "ABS",
+    "HIP"
+  ],
+  "KETTLEBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "KETTLEBELL_SIT_UP": [
+    "ABS"
+  ],
+  "KETTLEBELL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "KETTLEBELL_SUMO_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "KETTLEBELL_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "KETTLEBELL_SWING_OVERHEAD": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "KETTLEBELL_SWING_WITH_FLIP_TO_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "KETTLEBELL_WINDMILL": [
+    "UNCATEGORIZED"
+  ],
+  "KICKS": [
+    "UNCATEGORIZED"
+  ],
+  "KIPPING_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "KIPPING_PARALLETTE_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "KIPPING_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "KIPPING_RING_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "KNEELING_AB_WHEEL": [
+    "ABS"
+  ],
+  "KNEELING_CABLE_CRUNCH": [
+    "ABS"
+  ],
+  "KNEELING_CROSS_CRUNCH": [
+    "ABS"
+  ],
+  "KNEELING_LAT_PULLDOWN": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "KNEELING_OBLIQUE_CABLE_CRUNCH": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "KNEELING_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "KNEELING_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "KNEELING_REAR_FLY": [
+    "CHEST"
+  ],
+  "KNEELING_ROTATIONAL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "KNEELING_ROTATIONAL_REVERSE_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "KNEELING_SIDE_PLANK_WITH_LEG_LIFT": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "KNEELING_STABILITY_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "KNEELING_SUPERMAN": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "KNEELING_UNDERHAND_GRIP_LAT_PULLDOWN": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "KNEELING_WOODCHOPPER": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "KNEE_RAISES": [
+    "ABS",
+    "HIP"
+  ],
+  "KNEES_TO_ELBOW": [
+    "UNCATEGORIZED"
+  ],
+  "LADDER": [
+    "QUADS",
+    "CALVES"
+  ],
+  "LATERAL_BARBELL_BURPEE": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "LATERAL_DUCK_UNDER": [
+    "UNCATEGORIZED"
+  ],
+  "LATERAL_DUMBBELL_STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LATERAL_LEAP_AND_HOP": [
+    "UNCATEGORIZED"
+  ],
+  "LATERAL_PLYO_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "LATERAL_ROLL": [
+    "UNCATEGORIZED"
+  ],
+  "LATERAL_SLIDE": [
+    "UNCATEGORIZED"
+  ],
+  "LATERAL_STEP_OVER": [
+    "UNCATEGORIZED"
+  ],
+  "LATERAL_WALKS_WITH_BAND_AT_ANKLES": [
+    "UNCATEGORIZED"
+  ],
+  "LAT_PULLDOWN": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "LAT_PULLDOWN_WITH_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "LAT_STRETCH": [
+    "LATS",
+    "OBLIQUES"
+  ],
+  "LAWNMOWER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LEANING_DUMBBELL_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "LEG_CLIMB_CRUNCH": [
+    "ABS"
+  ],
+  "LEG_CURL": [
+    "BICEPS"
+  ],
+  "LEG_EXTENSIONS": [
+    "QUADS"
+  ],
+  "LEG_LEVERS": [
+    "UNCATEGORIZED"
+  ],
+  "LEG_LOWERING_DRILL": [
+    "UNCATEGORIZED"
+  ],
+  "LEG_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "LEVATOR_SCAPULAE_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "LOW_LUNGE_WITH_ISOMETRIC_ADDUCTION": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LOW_SIDE_TO_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "L_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "L_SIT": [
+    "UNCATEGORIZED"
+  ],
+  "LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LUNGE_MATRIX": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LUNGE_WITH_ARM_REACH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LUNGE_WITH_DIAGONAL_REACH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "LUNGE_WITH_SIDE_BEND": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "LUNGE_WITH_SPINAL_TWIST_STRETCH": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "LUNGING_HIP_FLEXOR_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "LYING_ABDUCTION_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "LYING_CONCENTRATION_CABLE_CURL": [
+    "BICEPS"
+  ],
+  "LYING_DUMBBELL_PULL_OVER_TO_EXTENSION": [
+    "CHEST",
+    "LATS",
+    "TRICEPS"
+  ],
+  "LYING_DUMBBELL_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "LYING_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "LYING_EZ_BAR_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "LYING_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "LYING_IT_BAND_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "LYING_KNEE_TO_CHEST_STRETCH": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "LYING_PIRIFORMIS_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "LYING_REVERSE_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "LYING_SPINAL_TWIST_STRETCH": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "LYING_STRAIGHT_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "LYING_TRICEPS_EXTENSION_TO_CLOSE_GRIP_BENCH_PRESS": [
+    "TRICEPS"
+  ],
+  "MAN_MAKERS": [
+    "UNCATEGORIZED"
+  ],
+  "MARCHING_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "MARCHING_HIP_RAISE_WITH_FEET_ON_A_SWISS_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "MCGILL_CURL_UP": [
+    "BICEPS"
+  ],
+  "MEDICINE_BALL_ALTERNATING_V_UP": [
+    "ABS"
+  ],
+  "MEDICINE_BALL_CHEST_PASS": [
+    "UNCATEGORIZED"
+  ],
+  "MEDICINE_BALL_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "MEDICINE_BALL_DEADLIFT_TO_REACH": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "MEDICINE_BALL_LEG_DROPS": [
+    "UNCATEGORIZED"
+  ],
+  "MEDICINE_BALL_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MEDICINE_BALL_OVERHEAD_THROWS": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "MEDICINE_BALL_SIDE_THROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "MEDICINE_BALL_SIT_UP": [
+    "ABS"
+  ],
+  "MEDICINE_BALL_SLAM": [
+    "UNCATEGORIZED"
+  ],
+  "MEDICINE_BALL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "MEDICINE_BALL_V_UP": [
+    "ABS"
+  ],
+  "MEDICINE_BALL_WOOD_CHOPS": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "MILITARY_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "MIXED_GRIP_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "MIXED_GRIP_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "MODIFIED_FRONT_LEVER": [
+    "UNCATEGORIZED"
+  ],
+  "MODIFIED_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "MODIFIED_MOUNTAIN_CLIMBER_AND_EXTENSION": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MODIFIED_PILATES_ROLL_UP_WITH_BALL": [
+    "UNCATEGORIZED"
+  ],
+  "MODIFIED_SIT_UP": [
+    "ABS"
+  ],
+  "MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MOUNTAIN_CLIMBER_ON_SLIDING_DISCS": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MOUNTAIN_CLIMBER_WITH_FEET_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MOUNTAIN_CLIMBER_WITH_HANDS_ON_BENCH": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MOUNTAIN_CLIMBER_WITH_HANDS_ON_SWISS_BALL": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "MUSCLE_UP_(PROGRESSION)": [
+    "LATS",
+    "TRICEPS",
+    "CHEST"
+  ],
+  "NECK_ROTATIONS": [
+    "UNCATEGORIZED"
+  ],
+  "NECK_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "NECK_TILTS": [
+    "UNCATEGORIZED"
+  ],
+  "NEGATIVE_SIT_UP": [
+    "ABS"
+  ],
+  "NEUTRAL_GRIP_ALTERNATING_DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "NEUTRAL_GRIP_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "NEUTRAL_GRIP_DUMBBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "NEUTRAL_GRIP_DUMBBELL_INCLINE_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "NEUTRAL_GRIP_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "OBLIQUES_STRETCH": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "OFFSET_DUMBBELL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "OFFSET_DUMBBELL_REVERSE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "OLYMPIC_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "ONE_ARM_BENT_OVER_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ONE_ARM_BURPEE": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "ONE_ARM_CABLE_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "ONE_ARM_CONCENTRATION_CURL": [
+    "BICEPS"
+  ],
+  "ONE_ARM_FLOOR_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "ONE_ARM_FULL_SIT_UP": [
+    "ABS"
+  ],
+  "ONE_ARM_ONE_LEG_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "ONE_ARM_ONE_LEG_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ONE_ARM_PREACHER_CURL": [
+    "BICEPS"
+  ],
+  "ONE_ARM_PUSH_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "ONE_ARM_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "ONE_ARM_ROW_WITH_BAND": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ONE_ARM_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "ONE_HAND_DUMBBELL_SPLIT_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "ONE_LEGGED_DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ONE_LEGGED_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "OPEN_KNEE_TUCKS": [
+    "UNCATEGORIZED"
+  ],
+  "OPPOSITE_ARM_AND_LEG_BALANCE": [
+    "UNCATEGORIZED"
+  ],
+  "OVERHAND_GRIP_REAR_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "OVERHEAD_BARBELL_SHRUG": [
+    "TRAPS",
+    "SHOULDERS"
+  ],
+  "OVERHEAD_BARBELL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "OVERHEAD_BULGARIAN_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "OVERHEAD_CARRY": [
+    "SHOULDERS",
+    "ABS",
+    "FOREARMS"
+  ],
+  "OVERHEAD_DUMBBELL_LUNGE": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "OVERHEAD_DUMBBELL_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "OVERHEAD_DUMBBELL_REVERSE_LUNGE": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "OVERHEAD_DUMBBELL_SHRUG": [
+    "TRAPS",
+    "SHOULDERS"
+  ],
+  "OVERHEAD_DUMBBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "OVERHEAD_DUMBBELL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "OVERHEAD_DUMBBELL_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "OVERHEAD_LUNGE": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "OVERHEAD_LUNGE_WITH_MEDICINE_BALL": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "OVERHEAD_LUNGE_WITH_ROTATION": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "OVERHEAD_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "OVERHEAD_WALK": [
+    "UNCATEGORIZED"
+  ],
+  "OVER_UNDER_SHOULDER_STRETCH": [
+    "SHOULDERS"
+  ],
+  "PARALLETTE_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PARTIAL_LOCKOUT": [
+    "UNCATEGORIZED"
+  ],
+  "PARTIAL_SINGLE_LEG_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "PECTORAL_STRETCH": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "PIGEON_POSE_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "PIKE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PILATES_CRUNCH": [
+    "ABS"
+  ],
+  "PILATES_ROLL_UP_WITH_BALL": [
+    "UNCATEGORIZED"
+  ],
+  "PIRIFORMIS_STRETCH": [
+    "HIP",
+    "GLUTES"
+  ],
+  "PISTOL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_JACKS_WITH_FEET_ON_SLIDING_DISCS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_KNEE_TUCKS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_KNEE_TWIST": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_PIKE_JUMPS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_PIKES": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_TO_STAND_UP": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_WITH_ARM_RAISE": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_WITH_FEET_ON_SWISS_BALL": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_WITH_KNEE_TO_ELBOW": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_WITH_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLANK_WITH_OBLIQUE_CRUNCH": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "PLATE_PINCH_CURL": [
+    "BICEPS"
+  ],
+  "PLATE_RAISES": [
+    "UNCATEGORIZED"
+  ],
+  "PLI\u00c3\u00a9_SLIDES": [
+    "UNCATEGORIZED"
+  ],
+  "PLI\u00c3\u00a9_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "PLYO": [
+    "UNCATEGORIZED"
+  ],
+  "PLYOMETRIC_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "POWER_SQUAT_CHOPS": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "PREACHER_CURL_WITH_CABLE": [
+    "BICEPS"
+  ],
+  "PRETZEL_SIDE_KICK": [
+    "UNCATEGORIZED"
+  ],
+  "PRISONER_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "PRONE_HIP_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "PUSH_JERK": [
+    "UNCATEGORIZED"
+  ],
+  "PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PUSH_UP_AND_ROW": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PUSH_UP_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PUSH_UP_PLUS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PUSH_UP_WITH_FEET_ON_SWISS_BALL": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "PUSH_UP_WITH_ONE_HAND_ON_MEDICINE_BALL": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "QUADRUPED": [
+    "QUADS"
+  ],
+  "QUADRUPED_HIP_EXTENSION": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "QUADRUPED_LEG_RAISE": [
+    "QUADS"
+  ],
+  "QUADRUPED_ROCKING": [
+    "QUADS"
+  ],
+  "QUADRUPED_WITH_LEG_LIFT": [
+    "QUADS"
+  ],
+  "QUAD_STRETCH": [
+    "QUADS"
+  ],
+  "RACK_PULL": [
+    "UNCATEGORIZED"
+  ],
+  "RAISED_LEGS_CRUNCH": [
+    "ABS"
+  ],
+  "REACH,_ROLL,_AND_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "RECLINING_CIRCLE": [
+    "UNCATEGORIZED"
+  ],
+  "RECLINING_TRICEPS_PRESS": [
+    "TRICEPS"
+  ],
+  "RENEGADE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "REVERSE_BARBELL_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "REVERSE_CRUNCH_ON_A_BENCH": [
+    "ABS"
+  ],
+  "REVERSE_CURL_AND_LIFT": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "REVERSE_CURL_UP": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "REVERSE_DUMBBELL_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_DUMBBELL_CROSSOVER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_DUMBBELL_DIAGONAL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_EZ_BAR_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "REVERSE_GRIP_BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "REVERSE_GRIP_BARBELL_BICEPS_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "REVERSE_GRIP_BARBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "REVERSE_GRIP_INCLINE_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "REVERSE_GRIP_PRESS_DOWN": [
+    "TRICEPS"
+  ],
+  "REVERSE_GRIP_PULLDOWN": [
+    "FOREARMS"
+  ],
+  "REVERSE_GRIP_TRICEPS_PRESS_DOWN": [
+    "TRICEPS"
+  ],
+  "REVERSE_GRIP_WRIST_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "REVERSE_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "REVERSE_LEG_RAISE_ON_SWISS_BALL": [
+    "ABS",
+    "HIP"
+  ],
+  "REVERSE_LUNGE_WITH_REACH_BACK": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_LUNGE_WITH_TWIST_AND_OVERHEAD_REACH": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "REVERSE_SLIDING_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "REVERSE_SLIDING_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "RING_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "RING_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "RING_L_SIT": [
+    "UNCATEGORIZED"
+  ],
+  "RING_MUSCLE_UP": [
+    "LATS",
+    "TRICEPS",
+    "CHEST"
+  ],
+  "RING_PLANK_SPRAWLS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "RING_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "RING_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ROLLING_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "ROMANIAN_DEADLIFT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "ROPE_CLIMB": [
+    "LATS",
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "ROPE_HANDLE_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ROPE_PRESS_DOWN": [
+    "TRICEPS"
+  ],
+  "ROTATIONAL_DUMBBELL_STRAIGHT_LEG_DEADLIFT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "ROTATIONAL_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "ROWING_MACHINE": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "RUN": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "RUN_INDOOR": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "RUNNER'S_LUNGE_TO_BALANCE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "RUN_OR_WALK": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "RUSSIAN_TWIST_ON_SWISS_BALL": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "SANDBAG": [
+    "UNCATEGORIZED"
+  ],
+  "SANDBAG_AROUND_THE_WORLD": [
+    "UNCATEGORIZED"
+  ],
+  "SANDBAG_BACK_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SANDBAG_BEAR_CRAWL_PULL_THROUGH": [
+    "SHOULDERS",
+    "ABS",
+    "QUADS"
+  ],
+  "SANDBAG_BEAR_HUG_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SANDBAG_CLEAN": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "SANDBAG_CLEAN_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "SANDBAG_CURL": [
+    "BICEPS"
+  ],
+  "SANDBAG_FRONT_CARRY": [
+    "FOREARMS",
+    "TRAPS",
+    "ABS"
+  ],
+  "SANDBAG_FRONT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "SANDBAG_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SANDBAG_OVERHEAD_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SANDBAG_PLANK_PULL_THROUGH": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SANDBAG_ROTATIONAL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SANDBAG_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SANDBAG_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "SANDBAG_SHOULDERING": [
+    "SHOULDERS"
+  ],
+  "SANDBAG_SHOVELING": [
+    "UNCATEGORIZED"
+  ],
+  "SANDBAG_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SANDBAG_SPRINT": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "SANDBAG_ZERCHER_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SCAPTION": [
+    "SHOULDERS"
+  ],
+  "SCAPTION_AND_SHRUG": [
+    "TRAPS"
+  ],
+  "SCAPULAR_RETRACTION": [
+    "TRAPS",
+    "SHOULDERS"
+  ],
+  "SCISSOR_POWER_SWITCH": [
+    "UNCATEGORIZED"
+  ],
+  "SCORPION_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "SEATED_ALTERNATING_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "SEATED_ALTERNATING_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "SEATED_BARBELL_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "SEATED_BARBELL_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SEATED_BARBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SEATED_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SEATED_CALF_RAISE": [
+    "CALVES"
+  ],
+  "SEATED_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "SEATED_DUMBBELL_EXTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "SEATED_DUMBBELL_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "SEATED_DUMBBELL_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SEATED_DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SEATED_DUMBBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SEATED_DUMBBELL_TOE_RAISE": [
+    "SHINS"
+  ],
+  "SEATED_EZ_BAR_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SEATED_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "SEATED_LEG_U": [
+    "UNCATEGORIZED"
+  ],
+  "SEATED_REAR_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "SEATED_REVERSE_DUMBBELL_CURL": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "SEATED_SINGLE_ARM_OVERHEAD_DUMBBELL_EXTENSION": [
+    "UNCATEGORIZED"
+  ],
+  "SEATED_UNDERHAND_GRIP_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SERRATUS_CHAIR_SHRUG": [
+    "TRAPS"
+  ],
+  "SERRATUS_SHRUG": [
+    "TRAPS"
+  ],
+  "SHIFTING_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SHOULDER_CIRCLES": [
+    "SHOULDERS"
+  ],
+  "SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SHOULDER_PUSH_UP": [
+    "SHOULDERS"
+  ],
+  "SHOULDER_STABILITY": [
+    "SHOULDERS"
+  ],
+  "SHOULDER_STRETCH": [
+    "SHOULDERS"
+  ],
+  "SHOULDER_TAPPING_PUSH_UP": [
+    "SHOULDERS"
+  ],
+  "SHRUG": [
+    "TRAPS"
+  ],
+  "SIDE_ABS_LEG_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "SIDE_AND_CROSSOVER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_BEND": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "SIDE_KICK_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_LUNGE_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_LUNGE_JUMP_OFF": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_LUNGE_STRETCH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_LUNGE_SWEEP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_LUNGE_TO_CROSSOVER_TAP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SIDE_LYING_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "SIDE_LYING_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_AND_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SIDE_PLANK_LIFT": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_TO_PLANK_WITH_REACH_UNDER": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_WITH_ELBOW_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_WITH_FEET_ON_BENCH": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_WITH_KNEE_CIRCLE": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_WITH_KNEE_TUCK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_WITH_LEG_LIFT": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_PLANK_WITH_REACH_UNDER": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SIDE_SPLIT_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "SIDE_STEP": [
+    "UNCATEGORIZED"
+  ],
+  "SIDE_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "SIDE_TO_SIDE_CRUNCH_AND_WEAVE": [
+    "ABS"
+  ],
+  "SIDE_TO_SIDE_LEG_SWINGS": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "SIDE_TO_SIDE_LUNGE_CHOPS": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "SIDE_TO_SIDE_MEDICINE_BALL_THROWS": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SIDE_TO_SIDE_SHUFFLE_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "SIFF_JUMP_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_ARM_CABLE_CHEST_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SINGLE_ARM_CABLE_ROW_AND_ROTATION": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SINGLE_ARM_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "SINGLE_ARM_DUMBBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_DUMBBELL_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SINGLE_ARM_DUMBBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SINGLE_ARM_DUMBBELL_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_DUMBBELL_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_HANG_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SINGLE_ARM_KETTLEBELL_SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_KETTLEBELL_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SINGLE_ARM_NEUTRAL_GRIP_DUMBBELL_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SINGLE_ARM_NEUTRAL_GRIP_DUMBBELL_ROW_AND_ROTATION": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SINGLE_ARM_REVERSE_LUNGE_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_ARM_STANDING_CABLE_REVERSE_FLY": [
+    "CHEST"
+  ],
+  "SINGLE_ARM_STEP_UP_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_DUMBBELL_SEATED_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SINGLE_LEG_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_BARBELL_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "SINGLE_LEG_BARBELL_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "SINGLE_LEG_BARBELL_STRAIGHT_LEG_DEADLIFT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "SINGLE_LEG_BENCH_DIP_AND_KICK": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "SINGLE_LEG_BENCH_GET_UP": [
+    "UNCATEGORIZED"
+  ],
+  "SINGLE_LEG_BENCH_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_BENT_KNEE_CALF_RAISE": [
+    "CALVES"
+  ],
+  "SINGLE_LEG_DEADLIFT_WITH_BARBELL": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "SINGLE_LEG_DECLINE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SINGLE_LEG_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "SINGLE_LEG_DONKEY_CALF_RAISE": [
+    "CALVES"
+  ],
+  "SINGLE_LEG_ELEVATED_FEET_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SINGLE_LEG_FLEX_AND_EXTEND": [
+    "UNCATEGORIZED"
+  ],
+  "SINGLE_LEG_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_BENCH": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_FOAM_ROLLER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_MEDICINE_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_HIP_RAISE_WITH_HEAD_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_HIP_RAISE_WITH_KNEE_HOLD": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_LOWERING_DRILL": [
+    "UNCATEGORIZED"
+  ],
+  "SINGLE_LEG_RDL_CIRCUIT": [
+    "UNCATEGORIZED"
+  ],
+  "SINGLE_LEG_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "SINGLE_LEG_ROMANIAN_DEADLIFT_CIRCUIT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "SINGLE_LEG_ROMANIAN_DEADLIFT_WITH_DUMBBELL": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "SINGLE_LEG_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SINGLE_LEG_SLIDING_LEG_CURL": [
+    "BICEPS"
+  ],
+  "SINGLE_LEG_SQUAT_ON_SWISS_BALL": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SINGLE_LEG_STANDING_CALF_RAISE": [
+    "CALVES"
+  ],
+  "SINGLE_LEG_STANDING_DUMBBELL_CALF_RAISE": [
+    "CALVES"
+  ],
+  "SINGLE_LEG_SWISS_BALL_HIP_RAISE_AND_LEG_CURL": [
+    "BICEPS"
+  ],
+  "SINGLE_LEG_SWISS_BALL_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "SIT_UP": [
+    "ABS"
+  ],
+  "SIT_UP_TURKISH_GET_UP": [
+    "ABS"
+  ],
+  "SKATER_CRUNCH_CROSS": [
+    "ABS"
+  ],
+  "SKI_MOGULS": [
+    "UNCATEGORIZED"
+  ],
+  "SLED": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLED_BACKWARD_DRAG": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLED_CHEST_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SLED_FORWARD_DRAG": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLEDGE_HAMMER": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLEDGE_HAMMER_LATERAL_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "SLEDGE_HAMMER_SLAM": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLED_LOW_PUSH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLED_PUSH": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SLEEPER_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "SLIDE_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "SLIDING_HIP_ADDUCTION": [
+    "HIP"
+  ],
+  "SLIDING_LATERAL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SLIDING_LEG_CURL": [
+    "BICEPS"
+  ],
+  "SMITH_MACHINE_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SMITH_MACHINE_OVERHEAD_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SNATCH": [
+    "QUADS",
+    "GLUTES",
+    "SHOULDERS"
+  ],
+  "SPEED_LADDER": [
+    "UNCATEGORIZED"
+  ],
+  "SPIDERMAN_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SPIDERMAN_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SPINE_EXTENSION": [
+    "UNCATEGORIZED"
+  ],
+  "SPLIT_BARBELL_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "SPLIT_JACKS": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "SPLIT_JERK": [
+    "UNCATEGORIZED"
+  ],
+  "SPLIT_STANCE_EXTENSION": [
+    "UNCATEGORIZED"
+  ],
+  "SPLIT_STANCE_HAMMER_CURL_TO_PRESS": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "SPLIT_STANCE_OFFSET_PINKY_DUMBBELL_CURL": [
+    "BICEPS"
+  ],
+  "SPRINT": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_AND_SIDE_KICK": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_CLEAN_AND_JERK": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_JACKS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_JUMP_ONTO_BOX": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_JUMPS_IN_AND_OUT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_JUMPS_IN_N'_OUT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT,_PLANK,_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SQUATS_WITH_BAND": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SQUAT_THRUSTS_(UP_DOWNS)": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "STACKED_FEET_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "STAGGERED_HANDS_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "STAGGERED_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "STAGGERED_STANCE_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "STAIR_STEPPER": [
+    "UNCATEGORIZED"
+  ],
+  "STANDING_ADDUCTION": [
+    "HIP"
+  ],
+  "STANDING_ALTERNATING_DUMBBELL_CURLS": [
+    "BICEPS"
+  ],
+  "STANDING_BARBELL_CALF_RAISE": [
+    "CALVES"
+  ],
+  "STANDING_CABLE_CRUNCH": [
+    "ABS"
+  ],
+  "STANDING_CABLE_HIP_ABDUCTION": [
+    "HIP",
+    "GLUTES"
+  ],
+  "STANDING_CABLE_PULL_OVER": [
+    "CHEST",
+    "LATS",
+    "TRICEPS"
+  ],
+  "STANDING_CALF_RAISE": [
+    "CALVES"
+  ],
+  "STANDING_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "STANDING_DUMBBELL_CALF_RAISE": [
+    "CALVES"
+  ],
+  "STANDING_EZ_BAR_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "STANDING_HAMSTRING_STRETCH": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "STANDING_HIP_ABDUCTION": [
+    "HIP",
+    "GLUTES"
+  ],
+  "STANDING_IT_BAND_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "STANDING_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "STANDING_L_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "STANDING_REAR_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "STANDING_ROTATIONAL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "STANDING_SIDE_CRUNCH": [
+    "ABS"
+  ],
+  "STANDING_SPLIT_ROTATIONAL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "STANDING_SPLIT_ROTATIONAL_REVERSE_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "STANDING_STABILITY_REVERSE_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "STANDING_T_ROTATION_BALANCE": [
+    "UNCATEGORIZED"
+  ],
+  "STANDING_ZOTTMAN_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "STAR_JUMP_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "STATIC_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "STATIC_CURL": [
+    "BICEPS"
+  ],
+  "STATIC_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "STATIONARY_BIKE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "STEP_CLIMB": [
+    "UNCATEGORIZED"
+  ],
+  "STEP_OUT_SWING": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "SHOULDERS"
+  ],
+  "STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "STRADDLE_STRETCH": [
+    "UNCATEGORIZED"
+  ],
+  "STRAIGHT_ARM_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "STRAIGHT_ARM_PLANK_WITH_SHOULDER_TOUCH": [
+    "SHOULDERS"
+  ],
+  "STRAIGHT_ARM_PULLDOWN": [
+    "UNCATEGORIZED"
+  ],
+  "STRAIGHT_LEG_CRUNCH_WITH_BALL": [
+    "ABS"
+  ],
+  "STRAIGHT_LEG_DEADLIFT": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "STRETCH_LYING_ABDUCTION": [
+    "HIP",
+    "GLUTES"
+  ],
+  "STRICT_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "SUITCASE_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUMO_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "SUMO_DEADLIFT_HIGH_PULL": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "SUMO_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUMO_SQUAT_SLIDE_IN": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUMO_SQUAT_TO_HIGH_PULL": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUMO_SQUAT_TO_STAND": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUMO_SQUAT_WITH_ROTATION": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUPERMAN_FROM_FLOOR": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUPERMAN_ON_SWISS_BALL": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUPINE_HIP_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "SUSPENDED_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SUSPENDED_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "SUSPENDED_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SUSPENDED_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SUSPENDED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SUSPENSION": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_CHEST_FLY": [
+    "CHEST"
+  ],
+  "SUSPENSION_CHEST_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_CRUNCH": [
+    "ABS"
+  ],
+  "SUSPENSION_CURL": [
+    "BICEPS"
+  ],
+  "SUSPENSION_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_FACE_PULL": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "SUSPENSION_GLUTE_BRIDGE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "HAMSTRING_CURL": [
+    "HAMSTRING"
+  ],
+  "SUSPENSION_HAMSTRING_CURL": [
+    "HAMSTRING"
+  ],
+  "SUSPENSION_HIP_DROP": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_KNEE_DRIVE_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "SUSPENSION_KNEE_TO_CHEST": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_LAT_PULL_OVER": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SUSPENSION_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUSPENSION_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_PENDULUM": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_PIKE": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_POWER_PULL": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SUSPENSION_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_REVERSE_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_REVERSE_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_ROLL_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "SUSPENSION_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "SUSPENSION_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUSPENSION_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SUSPENSION_SINGLE_LEG_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "SUSPENSION_SINGLE_LEG_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUSPENSION_SIT_UP": [
+    "ABS"
+  ],
+  "SUSPENSION_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUSPENSION_SQUAT_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SUSPENSION_TRICEP_PRESS": [
+    "TRICEPS"
+  ],
+  "SUSPENSION_Y_FLY": [
+    "CHEST"
+  ],
+  "SWISS_BALL_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SWISS_BALL_BODY_WEIGHT_WALL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SWISS_BALL_CRUNCH": [
+    "ABS"
+  ],
+  "SWISS_BALL_DUMBBELL_CHEST_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_DUMBBELL_FLY": [
+    "CHEST"
+  ],
+  "SWISS_BALL_DUMBBELL_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SWISS_BALL_DUMBBELL_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SWISS_BALL_DUMBBELL_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "SWISS_BALL_EZ_BAR_LYING_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SWISS_BALL_EZ_BAR_OVERHEAD_TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "SWISS_BALL_EZ_BAR_PREACHER_CURL": [
+    "BICEPS"
+  ],
+  "SWISS_BALL_EZ_BAR_PULL_OVER": [
+    "CHEST",
+    "LATS",
+    "TRICEPS"
+  ],
+  "SWISS_BALL_HIP_CROSSOVER": [
+    "UNCATEGORIZED"
+  ],
+  "SWISS_BALL_HIP_RAISE_AND_LEG_CURL": [
+    "BICEPS"
+  ],
+  "SWISS_BALL_HYPEREXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "SWISS_BALL_I_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "SWISS_BALL_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "SWISS_BALL_OPPOSITE_ARM_AND_LEG_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "SWISS_BALL_PIKE": [
+    "UNCATEGORIZED"
+  ],
+  "SWISS_BALL_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_PLANK_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_PLANK_LEG_LIFT_AND_HOLD": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_PLANK_WITH_FEET_ON_BENCH": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_PRONE_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "SWISS_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_PUSH_UP_PLUS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_REACH,_ROLL,_AND_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "SWISS_BALL_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "SWISS_BALL_ROLL_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "SWISS_BALL_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "SWISS_BALL_SIDE_CRUNCH": [
+    "ABS"
+  ],
+  "SWISS_BALL_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "SWISS_BALL_T_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "SWISS_BALL_WINDSHIELD_WIPERS": [
+    "UNCATEGORIZED"
+  ],
+  "SWISS_BALL_W_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "SWISS_BALL_Y_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "TABLETOP_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "T_BAR_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "THE_TEASER": [
+    "UNCATEGORIZED"
+  ],
+  "THE_TEASER,_WEIGHTED": [
+    "UNCATEGORIZED"
+  ],
+  "THORACIC_CRUNCHES_ON_FOAM_ROLLER": [
+    "ABS"
+  ],
+  "THORACIC_ROTATION": [
+    "UNCATEGORIZED"
+  ],
+  "THREE_PART_ROLL_DOWN": [
+    "UNCATEGORIZED"
+  ],
+  "THREE_WAY_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "THRUSTERS": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "TIRE": [
+    "UNCATEGORIZED"
+  ],
+  "TIRE_FLIP": [
+    "QUADS",
+    "GLUTES",
+    "TRAPS"
+  ],
+  "TOES_TO_BAR": [
+    "ABS",
+    "HIP"
+  ],
+  "TOES_TO_ELBOWS": [
+    "UNCATEGORIZED"
+  ],
+  "TOTAL_BODY": [
+    "UNCATEGORIZED"
+  ],
+  "TOTAL_BODY_BURPEE_OVER_BAR": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "TOWEL_GRIP_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "TOWEL_PLANK_AND_KNEE_IN": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "TOWEL_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "T_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "TRAP_BAR_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "TREADMILL": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "TRIANGLE_HIP_PRESS": [
+    "GLUTES",
+    "ABS",
+    "HAMSTRINGS"
+  ],
+  "TRICEPS_CRUNCH": [
+    "TRICEPS"
+  ],
+  "TRICEPS_EXTENSION": [
+    "TRICEPS"
+  ],
+  "TRICEPS_EXTENSION_ON_FLOOR": [
+    "TRICEPS"
+  ],
+  "TRICEPS_PRESS": [
+    "TRICEPS"
+  ],
+  "TRICEPS_PRESS_DOWN": [
+    "TRICEPS"
+  ],
+  "TRICEPS_STRETCH": [
+    "TRICEPS"
+  ],
+  "TRIPLE_STOP_BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "TRIPLE_STOP_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "TRIPLE_UNDER": [
+    "CALVES",
+    "SHOULDERS"
+  ],
+  "TRX_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "TRX_SUSPENDED_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "T_STABILIZATION": [
+    "UNCATEGORIZED"
+  ],
+  "TURKISH_GET_UP": [
+    "ABS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "TURKISH_GET_UP_TO_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "TWISTING_STANDING_DUMBBELL_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "TWO_POINT_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "U_BOAT": [
+    "UNCATEGORIZED"
+  ],
+  "UNDERHAND_GRIP_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "UNDERHAND_GRIP_REAR_LATERAL_RAISE": [
+    "SHOULDERS"
+  ],
+  "UNEVEN_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "UPRIGHT_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "V_GRIP_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "V_UP": [
+    "ABS"
+  ],
+  "WAIST_SLIMMING_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WALK": [
+    "UNCATEGORIZED"
+  ],
+  "WALKING_BARBELL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WALKING_DUMBBELL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WALKING_HIGH_KICKS": [
+    "UNCATEGORIZED"
+  ],
+  "WALKING_HIGH_KNEES": [
+    "UNCATEGORIZED"
+  ],
+  "WALKING_KNEE_HUGS": [
+    "UNCATEGORIZED"
+  ],
+  "WALKING_LEG_CRADLES": [
+    "UNCATEGORIZED"
+  ],
+  "WALKING_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WALKOUT": [
+    "HAMSTRINGS",
+    "SHOULDERS",
+    "ABS"
+  ],
+  "WALKOUT_FROM_PUSH_UP_POSITION": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WALL_BALL": [
+    "QUADS",
+    "SHOULDERS",
+    "GLUTES"
+  ],
+  "WALL_BALL_SQUAT_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WALL_CHEST_AND_SHOULDER_STRETCH": [
+    "SHOULDERS"
+  ],
+  "WALL_SLIDE": [
+    "UNCATEGORIZED"
+  ],
+  "WALL_WALK": [
+    "UNCATEGORIZED"
+  ],
+  "WARM_UP": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_45_DEGREE_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_90_DEGREE_STATIC_HOLD": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_ABS_JABS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_ALTERNATING_HANDS_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_ALTERNATING_JUMP_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_ALTERNATING_SIT_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_ALTERNATING_SLIDE_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_ALTERNATING_STAGGERED_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_BACK_EXTENSION_WITH_OPPOSITE_ARM_AND_LEG_REACH": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_BACK_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_BALANCING_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_BARBELL_ROLL_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_BASE_ROTATIONS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_BEAR_CRAWL": [
+    "SHOULDERS",
+    "ABS",
+    "QUADS"
+  ],
+  "WEIGHTED_BENCH_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_BENCH_SQUAT_WITH_ROTATIONAL_CHOP": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_BENT_KNEE_REVERSE_HYPEREXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_BENT_KNEE_SWISS_BALL_REVERSE_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_BENT_KNEE_V_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_BICEPS_PUSH_UP": [
+    "BICEPS"
+  ],
+  "WEIGHTED_BICYCLE_CRUNCH": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "WEIGHTED_BOB_AND_WEAVE_CIRCLE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_BOX_STEP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_BRIDGE_WITH_LEG_EXTENSION": [
+    "QUADS"
+  ],
+  "WEIGHTED_BURPEE": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_BURPEE_BOX_JUMP": [
+    "CHEST",
+    "QUADS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_BURPEE_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_BUTTERFLY_SIT_UP": [
+    "CHEST"
+  ],
+  "WEIGHTED_CARDIO_CORE_CRAWL": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_CLAM_BRIDGE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_CLAPPING_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_CLOSE_GRIP_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_CLOSE_GRIP_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_CLOSE_HANDS_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_CRESCENT_CIRCLE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_CROSS_BODY_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_CROSS_CHOP_TO_KNEE": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_CROSSED_ARMS_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_CROSSED_ARMS_SIT_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_CROSSED_LEG_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_CROSS_KNEE_STRIKE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_CROSSOVER_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_CROSS_PUNCH_ROLL_UP": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_CRUNCH_CHOP": [
+    "ABS"
+  ],
+  "WEIGHTED_CURTSY_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_CYCLING_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_DEAD_BUG": [
+    "ABS"
+  ],
+  "WEIGHTED_DECLINE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_DEPTH_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "WEIGHTED_DIAMOND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_DONKEY_CALF_RAISE": [
+    "CALVES"
+  ],
+  "WEIGHTED_DOUBLE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_DOUBLE_UNDER": [
+    "CALVES",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_ELBOW_PLANK_PIKE_JACKS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_ELBOW_TO_KNEE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_ELEVATED_FEET_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_ELEVATED_FEET_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_ELEVATED_FEET_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_ELEVATED_SINGLE_LEG_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_ELEVATOR_ABS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_EXPLOSIVE_CROSSOVER_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_EXPLOSIVE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_EXTENDED_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_EXTERNAL_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_FEET_ELEVATED_SIDE_TO_SIDE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_FIGURE_FOUR_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_FIRE_HYDRANT_KICKS": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_FLOOR_INVERTED_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "WEIGHTED_FLOOR_I_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_FLOOR_T_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_FLOOR_Y_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_FLUTTER_KICKS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_FOAM_ROLLER_REVERSE_CRUNCH_ON_BENCH": [
+    "ABS"
+  ],
+  "WEIGHTED_FRONT_KICK_TABLETOP": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_FRONT_KNEE_STRIKE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_FULL_PLANK_PASS\u00c3\u00a9_TWIST": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_GET_UP_SIT_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_GHD_BACK_EXTENSIONS": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HALF_KNEELING_ROTATION": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_HAND_RELEASE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_HANGING_HURDLE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_HANGING_KNEE_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_HANGING_KNEE_RAISE_OBLIQUE_CRUNCH": [
+    "ABS",
+    "OBLIQUES"
+  ],
+  "WEIGHTED_HANGING_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_HANGING_L_SIT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_HANGING_SINGLE_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_HIGH_BOX_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "WEIGHTED_HINDU_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_HIP_CIRCLES": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_HIP_CROSSOVER": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_HIP_EXTENSION_AND_CROSS": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HIP_RAISE_WITH_FEET_ON_SWISS_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HIP_RAISE_WITH_HEAD_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HIP_RAISE_WITH_HEAD_ON_SWISS_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HIP_RAISE_WITH_KNEE_SQUEEZE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_HOLLOW,_HOLD,_AND_ROLL": [
+    "ABS"
+  ],
+  "WEIGHTED_HOLLOW_ROCK": [
+    "ABS"
+  ],
+  "WEIGHTED_HOVERING_SIT_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_INCHING_ELBOW_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_INCHWORM_TO_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_INCLINE_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_INCLINE_I_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_INCLINE_L_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_INCLINE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_INCLINE_REAR_LEG_EXTENSION": [
+    "QUADS"
+  ],
+  "WEIGHTED_INCLINE_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_INCLINE_T_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_INCLINE_W_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_INCLINE_Y_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_INNER_THIGH_LIFT": [
+    "THIGHS"
+  ],
+  "WEIGHTED_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_INVERTED_ROW_WITH_FEET_ON_SWISS_BALL": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_INVERTED_SHOULDER_PRESS": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "WEIGHTED_ISOMETRIC_EXPLOSIVE_JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_ISOMETRIC_EXPLOSIVE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_JUDO_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_JUMPING_JACKS": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "WEIGHTED_JUMPING_PULL_UPS": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_JUMP_ROPE": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "WEIGHTED_JUMP_ROPE_CROSSOVER": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "WEIGHTED_JUMP_ROPE_JOG": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "WEIGHTED_JUMP_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_KICKS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_KIPPING_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_KNEELING_AB_WHEEL": [
+    "ABS"
+  ],
+  "WEIGHTED_KNEELING_CROSS_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_KNEELING_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_KNEELING_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_KNEELING_SIDE_PLANK_WITH_LEG_LIFT": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_KNEELING_SUPERMAN": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_KNEE_RAISES": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_LATERAL_LEAP_AND_HOP": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_LATERAL_PLYO_SQUATS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_LATERAL_ROLL": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_LATERAL_SLIDE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_LATERAL_STEP_OVER": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_LEG_CURL": [
+    "BICEPS"
+  ],
+  "WEIGHTED_LEG_EXTENSIONS": [
+    "QUADS"
+  ],
+  "WEIGHTED_LEG_LOWERING_DRILL": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_L_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_L_SIT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_LUNGE_MATRIX": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_LYING_REVERSE_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_LYING_STRAIGHT_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_MARCHING_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_MARCHING_HIP_RAISE_WITH_FEET_ON_A_SWISS_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_MCGILL_CURL_UP": [
+    "BICEPS"
+  ],
+  "WEIGHTED_MEDICINE_BALL_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MIXED_GRIP_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_MIXED_GRIP_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_MODIFIED_FRONT_LEVER": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_MODIFIED_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_MODIFIED_MOUNTAIN_CLIMBER_AND_EXTENSION": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MODIFIED_PILATES_ROLL_UP_WITH_BALL": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_MOUNTAIN_CLIMBER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MOUNTAIN_CLIMBER_ON_SLIDING_DISCS": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MOUNTAIN_CLIMBER_WITH_FEET_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MOUNTAIN_CLIMBER_WITH_HANDS_ON_BENCH": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_MOUNTAIN_CLIMBER_WITH_HANDS_ON_SWISS_BALL": [
+    "ABS",
+    "HIP",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_NEUTRAL_GRIP_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_NEUTRAL_GRIP_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_ONE_ARM_FLOOR_PRESS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_ONE_ARM_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_OPEN_KNEE_TUCKS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_PARALLETTE_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PARTIAL_SINGLE_LEG_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_PIKE_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PILATES_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_PILATES_ROLL_UP_WITH_BALL": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_PISTOL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_JACKS_WITH_FEET_ON_SLIDING_DISCS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_KNEE_TUCKS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_KNEE_TWIST": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_PIKE_JUMPS": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_PIKES": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_TO_STAND_UP": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_WITH_ARM_RAISE": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_WITH_KNEE_TO_ELBOW": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLANK_WITH_OBLIQUE_CRUNCH": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PLI\u00c3\u00a9_SLIDES": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_PLI\u00c3\u00a9_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_PLYOMETRIC_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_POWER_SQUAT_CHOPS": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_PRETZEL_SIDE_KICK": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_PRISONER_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_PRONE_HIP_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PUSH_UP_AND_ROW": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PUSH_UP_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PUSH_UP_PLUS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PUSH_UP_WITH_FEET_ON_SWISS_BALL": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_PUSH_UP_WITH_ONE_HAND_ON_MEDICINE_BALL": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_QUADRUPED_HIP_EXTENSION": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_QUADRUPED_LEG_RAISE": [
+    "QUADS"
+  ],
+  "WEIGHTED_QUADRUPED_WITH_LEG_LIFT": [
+    "QUADS"
+  ],
+  "WEIGHTED_RAISED_LEGS_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_RECLINING_CIRCLE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_REVERSE_CRUNCH_ON_A_BENCH": [
+    "ABS"
+  ],
+  "WEIGHTED_REVERSE_CURL_AND_LIFT": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "WEIGHTED_REVERSE_CURL_UP": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "WEIGHTED_REVERSE_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_REVERSE_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_REVERSE_LEG_RAISE_ON_SWISS_BALL": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_REVERSE_LUNGE_WITH_REACH_BACK": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_REVERSE_LUNGE_WITH_TWIST_AND_OVERHEAD_REACH": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_REVERSE_SLIDING_BOX_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_REVERSE_SLIDING_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_RING_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_RING_HANDSTAND_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_RING_L_SIT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_RING_MUSCLE_UP": [
+    "LATS",
+    "TRICEPS",
+    "CHEST"
+  ],
+  "WEIGHTED_RING_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_ROLLING_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_ROPE_CLIMB": [
+    "LATS",
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "WEIGHTED_ROTATIONAL_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_RUNNER'S_LUNGE_TO_BALANCE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_RUSSIAN_TWIST_ON_SWISS_BALL": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_SEATED_ALTERNATING_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_SEATED_CALF_RAISE": [
+    "CALVES"
+  ],
+  "WEIGHTED_SEATED_LEG_U": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SERRATUS_CHAIR_SHRUG": [
+    "TRAPS"
+  ],
+  "WEIGHTED_SERRATUS_SHRUG": [
+    "TRAPS"
+  ],
+  "WEIGHTED_SHIFTING_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SHOULDER_PUSH_UP": [
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_ABS_LEG_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SIDE_AND_CROSSOVER_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SIDE_BEND": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_SIDE_KICK_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SIDE_LUNGE_AND_PRESS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SIDE_LUNGE_JUMP_OFF": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SIDE_LUNGE_SWEEP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SIDE_LUNGE_TO_CROSSOVER_TAP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SIDE_LYING_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_AND_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_SIDE_PLANK_LIFT": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_WITH_ELBOW_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_WITH_FEET_ON_BENCH": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_WITH_KNEE_CIRCLE": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_WITH_KNEE_TUCK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_WITH_LEG_LIFT": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_PLANK_WITH_REACH_UNDER": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SIDE_STEP": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SIDE_TO_SIDE_CRUNCH_AND_WEAVE": [
+    "ABS"
+  ],
+  "WEIGHTED_SIDE_TO_SIDE_LUNGE_CHOPS": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_SIDE_TO_SIDE_SHUFFLE_JUMP": [
+    "QUADS",
+    "GLUTES",
+    "CALVES"
+  ],
+  "WEIGHTED_SIFF_JUMP_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_ARM_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_SINGLE_ARM_MEDICINE_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SINGLE_LEG_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_BENCH_DIP_AND_KICK": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SINGLE_LEG_BENCH_GET_UP": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SINGLE_LEG_BENCH_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_BENT_KNEE_CALF_RAISE": [
+    "CALVES"
+  ],
+  "WEIGHTED_SINGLE_LEG_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SINGLE_LEG_DONKEY_CALF_RAISE": [
+    "CALVES"
+  ],
+  "WEIGHTED_SINGLE_LEG_ELEVATED_FEET_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SINGLE_LEG_FLEX_AND_EXTEND": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SINGLE_LEG_HIP_RAISE": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_BENCH": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_FOAM_ROLLER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_HIP_RAISE_WITH_FOOT_ON_MEDICINE_BALL": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_HIP_RAISE_WITH_HEAD_ON_BOSU\u00c2\u00ae_BALANCE_TRAINER": [
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_LOWERING_DRILL": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SINGLE_LEG_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_SINGLE_LEG_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SINGLE_LEG_SQUAT_ON_SWISS_BALL": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SINGLE_LEG_SWISS_BALL_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "WEIGHTED_SIT_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_SKATER_CRUNCH_CROSS": [
+    "ABS"
+  ],
+  "WEIGHTED_SKI_MOGULS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SLIDING_HIP_ADDUCTION": [
+    "HIP"
+  ],
+  "WEIGHTED_SLIDING_LATERAL_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SPIDERMAN_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SPIDERMAN_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SPINE_EXTENSION": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SPLIT_JACKS": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "WEIGHTED_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SQUAT_JACKS": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SQUAT_JUMP_ONTO_BOX": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SQUAT_JUMPS_IN_AND_OUT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SQUAT,_PLANK,_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SQUAT_THRUSTS_(UP_DOWNS)": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_STACKED_FEET_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_STAGGERED_HANDS_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_STAGGERED_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_STANDING_ADDUCTION": [
+    "HIP"
+  ],
+  "WEIGHTED_STANDING_CALF_RAISE": [
+    "CALVES"
+  ],
+  "WEIGHTED_STANDING_HIP_ABDUCTION": [
+    "HIP",
+    "GLUTES"
+  ],
+  "WEIGHTED_STANDING_REAR_LEG_RAISE": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_STANDING_T_ROTATION_BALANCE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_STATIC_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_STEP_CLIMB": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_STEP_UP": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_STRAIGHT_ARM_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_STRAIGHT_ARM_PLANK_WITH_SHOULDER_TOUCH": [
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SUMO_SQUAT_SLIDE_IN": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SUMO_SQUAT_TO_STAND": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SUMO_SQUAT_WITH_ROTATION": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SUPERMAN_FROM_FLOOR": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SUPINE_HIP_INTERNAL_ROTATION": [
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SUSPENDED_CHIN_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_SUSPENDED_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SUSPENDED_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_SUSPENDED_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_BACK_EXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SWISS_BALL_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_SWISS_BALL_HYPEREXTENSION": [
+    "LOWER_BACK",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SWISS_BALL_I_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_SWISS_BALL_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "WEIGHTED_SWISS_BALL_OPPOSITE_ARM_AND_LEG_LIFT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SWISS_BALL_PIKE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SWISS_BALL_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_PLANK_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_PLANK_LEG_LIFT_AND_HOLD": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_PLANK_WITH_FEET_ON_BENCH": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_PRONE_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "WEIGHTED_SWISS_BALL_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_PUSH_UP_PLUS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_REVERSE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_SWISS_BALL_ROLL_OUT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_SWISS_BALL_RUSSIAN_TWIST": [
+    "OBLIQUES",
+    "ABS"
+  ],
+  "WEIGHTED_SWISS_BALL_SIDE_CRUNCH": [
+    "ABS"
+  ],
+  "WEIGHTED_SWISS_BALL_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_SWISS_BALL_T_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_SWISS_BALL_WALL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_SWISS_BALL_W_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_SWISS_BALL_Y_RAISE": [
+    "SHOULDERS",
+    "TRAPS"
+  ],
+  "WEIGHTED_TABLETOP_DIP": [
+    "TRICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_THORACIC_CRUNCHES_ON_FOAM_ROLLER": [
+    "ABS"
+  ],
+  "WEIGHTED_THREE_PART_ROLL_DOWN": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_THREE_WAY_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_TOES_TO_BAR": [
+    "ABS",
+    "HIP"
+  ],
+  "WEIGHTED_TOWEL_GRIP_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_TOWEL_PLANK_AND_KNEE_IN": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_TOWEL_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_T_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_TRIANGLE_HIP_PRESS": [
+    "GLUTES",
+    "ABS",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_TRIPLE_STOP_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_TRIPLE_UNDER": [
+    "CALVES",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_TRX_INVERTED_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_TRX_SUSPENDED_JACKKNIFE": [
+    "QUADS",
+    "SHOULDERS",
+    "CALVES"
+  ],
+  "WEIGHTED_T_STABILIZATION": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_TURKISH_GET_UP_TO_SIDE_PLANK": [
+    "OBLIQUES",
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_TWO_POINT_PLANK": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_U_BOAT": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_UNEVEN_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_V_UP": [
+    "ABS"
+  ],
+  "WEIGHTED_WALKING_LUNGE": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_WALL_SLIDE": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_WALL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WEIGHTED_WIDE_GRIP_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WEIGHTED_WIDE_HANDS_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_WIDE_STANCE_PLANK_WITH_DIAGONAL_ARM_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_WIDE_STANCE_PLANK_WITH_DIAGONAL_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_WIDE_STANCE_PLANK_WITH_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WEIGHTED_WINDMILL_SWITCHES": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHTED_X_ABS": [
+    "UNCATEGORIZED"
+  ],
+  "WEIGHT_PLATE_FRONT_RAISE": [
+    "SHOULDERS"
+  ],
+  "WIDE_GRIP_BARBELL_BENCH_PRESS": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WIDE_GRIP_BARBELL_DEADLIFT": [
+    "GLUTES",
+    "HAMSTRINGS",
+    "LOWER_BACK"
+  ],
+  "WIDE_GRIP_BARBELL_SHRUG": [
+    "TRAPS"
+  ],
+  "WIDE_GRIP_EZ_BAR_BICEPS_CURL": [
+    "BICEPS"
+  ],
+  "WIDE_GRIP_JUMP_SHRUG": [
+    "TRAPS"
+  ],
+  "WIDE_GRIP_LAT_PULLDOWN": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WIDE_GRIP_OVERHEAD_BARBELL_SPLIT_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "ABS"
+  ],
+  "WIDE_GRIP_PULL_UP": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WIDE_GRIP_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WIDE_GRIP_SEATED_CABLE_ROW": [
+    "LATS",
+    "TRAPS",
+    "BICEPS"
+  ],
+  "WIDE_HANDS_PUSH_UP": [
+    "CHEST",
+    "TRICEPS",
+    "SHOULDERS"
+  ],
+  "WIDE_STANCE_BARBELL_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WIDE_STANCE_GOBLET_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ],
+  "WIDE_STANCE_PLANK_WITH_DIAGONAL_ARM_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WIDE_STANCE_PLANK_WITH_DIAGONAL_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WIDE_STANCE_PLANK_WITH_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WIDE_STANCE_PLANK_WITH_OPPOSITE_ARM_AND_LEG_LIFT": [
+    "ABS",
+    "SHOULDERS"
+  ],
+  "WINDMILL_SWITCHES": [
+    "UNCATEGORIZED"
+  ],
+  "X_ABS": [
+    "UNCATEGORIZED"
+  ],
+  "ZERCHER_GOOD_MORNING": [
+    "HAMSTRINGS",
+    "GLUTES",
+    "LOWER_BACK"
+  ],
+  "ZERCHER_SQUAT": [
+    "QUADS",
+    "GLUTES",
+    "HAMSTRINGS"
+  ]
 }

@@ -41,9 +41,18 @@ function applyFilters() {
     const cards = document.querySelectorAll(".exercise-card");
     cards.forEach(function (card) {
         const name = card.getAttribute("data-name").toLowerCase().replace(/_/g, " ");
-        const category = card.getAttribute("data-category") || "";
+        let muscles = [];
+        try {
+            muscles = JSON.parse(card.getAttribute("data-muscles") || "[]");
+        } catch (e) {
+            muscles = [];
+        }
+        // Muscle names are already uppercase with underscores, matching category values
+        const normalizedMuscles = muscles;
         const matchesSearch = name.includes(query);
-        const matchesCategory = selectedCategories.length === 0 || selectedCategories.includes(category);
+        const matchesCategory = selectedCategories.length === 0 || normalizedMuscles.some(function (m) {
+            return selectedCategories.includes(m);
+        });
 
         card.style.display = (matchesSearch && matchesCategory) ? "" : "none";
     });

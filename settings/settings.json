@@ -1,3 +1,4 @@
 {
-  "include_bw": false
+  "include_bw": false,
+  "push_pull_leg_split": false
 }

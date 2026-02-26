@@ -43,7 +43,7 @@
             {% for d in dates %}
                 {% set ns.total_sets = ns.total_sets + sessions[d] | length %}
             {% endfor %}
-            <a href="/exercise/{{ exercise_name }}" class="exercise-card" data-name="{{ exercise_name }}" data-category="{{ exercise_data.muscle_category | default('UNCATEGORIZED') }}">
+            <a href="/exercise/{{ exercise_name }}" class="exercise-card" data-name="{{ exercise_name }}" data-muscles='{{ exercise_data.muscle_used | tojson }}'>
                 <div class="exercise-name">{{ exercise_name.replace('_', ' ').title() }}</div>
                 <div class="exercise-stats">
                     <span>📅 {{ dates | length }} sessions</span>
