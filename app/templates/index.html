@@ -17,7 +17,7 @@
                         🏷️ Filter
                     </button>
                     <div class="category-dropdown-menu" id="category-dropdown-menu">
-                        {% for category in categories %}
+                        {% for category in categories.keys() %}
                         <label class="category-option">
                             <input type="checkbox" value="{{ category }}" onchange="applyFilters()">
                             <span>{{ category.replace('_', ' ').title() }}</span>
@@ -67,6 +67,7 @@
             {% endfor %}
         </div>
     </div>
+    <script>const categoryMap = {{ categories | tojson }};</script>
     <script src="{{ url_for('static', filename='js/sync.js') }}"></script>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>

@@ -15,11 +15,17 @@ def load_exercises():
         return data
     
 def load_categories():
-    json_path = Path(__file__).parent.parent / "settings" / "muscle_group_list.json"
+    if config.push_pull_leg_split:
+        json_path = Path(__file__).parent.parent / "settings" / "grouped_muscles_ppl.json"
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data
+    else:
+        json_path = Path(__file__).parent.parent / "settings" / "grouped_muscles_single.json"
     
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-        return data["list"]
+        return data
 
 @app.route("/")
 def index():

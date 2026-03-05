@@ -6,6 +6,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Restore saved category filters
+    try {
+        var saved = JSON.parse(localStorage.getItem("selectedCategories") || "[]");
+        if (saved.length > 0) {
+            var checkboxes = document.querySelectorAll("#category-dropdown-menu input[type=checkbox]");
+            checkboxes.forEach(function (cb) {
+                cb.checked = saved.includes(cb.value);
+            });
+            applyFilters();
+        }
+    } catch (e) {}
+
     // Close dropdown when clicking outside
     document.addEventListener("click", function (e) {
         const dropdown = document.getElementById("category-dropdown");
@@ -13,6 +25,20 @@ document.addEventListener("DOMContentLoaded", function () {
             dropdown.classList.remove("open");
         }
     });
+});
+
+// Also restore filters when navigating back via browser cache
+window.addEventListener("pageshow", function (e) {
+    if (e.persisted) {
+        try {
+            var saved = JSON.parse(localStorage.getItem("selectedCategories") || "[]");
+            var checkboxes = document.querySelectorAll("#category-dropdown-menu input[type=checkbox]");
+            checkboxes.forEach(function (cb) {
+                cb.checked = saved.includes(cb.value);
+            });
+            applyFilters();
+        } catch (e) {}
+    }
 });
 
 function toggleCategoryDropdown() {
@@ -28,6 +54,9 @@ function applyFilters() {
     checkboxes.forEach(function (cb) {
         if (cb.checked) selectedCategories.push(cb.value);
     });
+    if (checkboxes.length > 0) {
+        localStorage.setItem("selectedCategories", JSON.stringify(selectedCategories));
+    }
 
     // Update button label
     const btn = document.getElementById("category-dropdown-btn");
@@ -51,7 +80,10 @@ function applyFilters() {
         const normalizedMuscles = muscles;
         const matchesSearch = name.includes(query);
         const matchesCategory = selectedCategories.length === 0 || normalizedMuscles.some(function (m) {
-            return selectedCategories.includes(m);
+            return selectedCategories.some(function (cat) {
+                const catMuscles = categoryMap[cat];
+                return Array.isArray(catMuscles) ? catMuscles.includes(m) : cat === m;
+            });
         });
 
         card.style.display = (matchesSearch && matchesCategory) ? "" : "none";

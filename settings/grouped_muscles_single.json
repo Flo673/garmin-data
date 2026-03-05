@@ -1,0 +1,21 @@
+{
+    "CHEST": ["CHEST"],
+    "BACK": ["BACK"],
+    "SHOULDERS": ["SHOULDERS"],
+    "TRICEPS": ["TRICEPS"],
+    "BICEPS": ["BICEPS"],
+    "FOREARMS": ["FOREARMS"],
+    "TRAPS": ["TRAPS"],
+    "LATS": ["LATS"],
+    "QUADS": ["QUADS"],
+    "HAMSTRINGS": ["HAMSTRINGS"],
+    "GLUTES": ["GLUTES"],
+    "CALVES": ["CALVES"],
+    "ABS": ["ABS"],
+    "OBLIQUES": ["OBLIQUES"],
+    "LOWER_BACK": ["LOWER_BACK"],
+    "HIP": ["HIP"],
+    "SHINS": ["SHINS"],
+    "THiGHS": ["THiGHS"],
+    "UNCATEGORIZED": ["UNCATEGORIZED"]
+}
